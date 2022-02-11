@@ -3,6 +3,8 @@ import math
 from openpyxl import load_workbook
 from xlwings import Range, Book
 from Period import Period
+import pandas as pd
+import xlsxwriter
 
 
 def extractSection(period):
@@ -35,8 +37,7 @@ def make_timetable():
 	none_length = 0
 	start_time = 0
 	start_time_set = False
-	periods = []
-	f = open("periods.txt", "w")
+	p_file = open("periods.txt", "w")
 
 	for i in range(0, len(data)):
 		j = 0
@@ -79,8 +80,7 @@ def make_timetable():
 							p = Period(period_start_time, period_end_time, period[0], section[0], venue, day[0])
 							none_count += cell_span
 							j += cell_span - 1
-							periods.append(p)
-							print(p, file = f)
+							print(p, file = p_file)
 				else:
 					for k in range(0, len(weekdays)):
 						if isinstance(data[i][j], str) and data[i][j].lower().find(weekdays[k]) != -1:
@@ -98,8 +98,7 @@ def make_timetable():
 				none_count += 1
 			j += 1
 	
-	f.close()
-	return periods
+	p_file.close()
 
 
 start_time = time.time()
@@ -113,14 +112,15 @@ sheet_obj = wb_obj.active
 print("Workbook loaded")
 max_row = sheet_obj.max_row
 max_col = sheet_obj.max_column
+data = []
 
 # Create file if not created
-f = open("Output.txt", "a+")
-f.close()
+f1 = open("Output.txt", "a+")
+f1.close()
 
-f = open("Output.txt", "r")
-data = []
-if len(f.read()) == 0:
+f2 = open("Output.txt", "r")
+contents = f2.read()
+if len(contents) == 0:
 	data = [ ["" for i in range(max_col)] for j in range(max_row) ]
 
 	for i, row in enumerate(sheet_obj.rows):
@@ -152,57 +152,88 @@ else:
 
 
 	weekdays = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
-	periods = make_timetable()
+	
+	# Create periods.txt if not created
+	p1 = open("periods.txt", "a")
+	p1.close()
 
-	# mon_periods, tue_periods, wed_periods, thu_periods, fri_periods, sat_periods = [], [], [], [], [], []
-	# sections = ["BCS-6A", "BCS-6B", "BCS-6C", "BCS-6D", "BCS-6E", "BCS-6F", "BCS-6G", "BCS-6H", "BCS-6J"]
-	# with open("periods.txt", "r") as w:
-	# 	f = w.read().split('\n')
-	# 	for period in f:
-	# 		if period != '':
-	# 			p = period.split(',')
-	# 			for i in range(len(p)):
-	# 				p[i] = p[i].split('=')
-	# 			name = p[0][1].strip()
-	# 			section = p[1][1].strip()
-	# 			startTime = p[2][1].strip()
-	# 			endTime = p[3][1].strip()
-	# 			venue = p[4][1].strip()
-	# 			day = p[5][1].strip()
-	# 			period = Period(startTime, endTime, name, section, venue, day)
+	periods = []
+	p2 = open("periods.txt", "r")
+	p2_contents = p2.read()
+	if len(p2_contents) == 0:
+		make_timetable()
+	else:
+		periods = p2_contents.split('\n')
 
-	# 			if period.day == "Monday" and period.section in sections:
-	# 				mon_periods.append(period)
-	# 			elif period.day == "Tuesday" and period.section in sections:
-	# 				tue_periods.append(period)
-	# 			elif period.day == "Wednesday" and period.section in sections:
-	# 				wed_periods.append(period)
-	# 			elif period.day == "Thursday" and period.section in sections:
-	# 				thu_periods.append(period)
-	# 			elif period.day == "Friday" and period.section in sections:
-	# 				fri_periods.append(period)
-	# 			elif period.day == "Saturday" and period.section in sections:
-	# 				sat_periods.append(period)
+	wb_obj.close()
+	
+	mon_periods, tue_periods, wed_periods, thu_periods, fri_periods, sat_periods = [], [], [], [], [], []
+	sections = ["BCS-6A", "BCS-6B", "BCS-6C", "BCS-6D", "BCS-6E", "BCS-6F", "BCS-6G", "BCS-6H", "BCS-6J"]
+	with open("periods.txt", "r") as w:
+		f = w.read().split('\n')
+		for period in f:
+			if period != '':
+				p = period.split('\t\t')
+				name = p[0].split('(')[0].strip()
+				section = p[0].split('(')[1].split(')')[0]
+				startTime = p[1].split('-')[0]
+				endTime = p[1].split('-')[1]
+				venue = p[2]
+				day = p[3]
+				period = Period(startTime, endTime, name, section, venue, day)
 
-	# # for section in sections:
-	# # 	print(section, end = '\t\t')
-	# # print()
+				if period.day == "Monday" and period.section in sections:
+					mon_periods.append(period)
+				elif period.day == "Tuesday" and period.section in sections:
+					tue_periods.append(period)
+				elif period.day == "Wednesday" and period.section in sections:
+					wed_periods.append(period)
+				elif period.day == "Thursday" and period.section in sections:
+					thu_periods.append(period)
+				elif period.day == "Friday" and period.section in sections:
+					fri_periods.append(period)
+				elif period.day == "Saturday" and period.section in sections:
+					sat_periods.append(period)
 
-	# # mon_periods = sorted(mon_periods, key=extractSection)
-	# # sheet_obj.append(mon_periods)
-	# # for m_period in mon_periods:
-	# 	# print(m_period)
-	# # wb_obj.close()
+	all_day_periods = [mon_periods, tue_periods, wed_periods, thu_periods, fri_periods, sat_periods]
 
-	# all_day_periods = [mon_periods, tue_periods, wed_periods, thu_periods, fri_periods, sat_periods]
+	section_periods = []
+	for section in sections:
+		section_periods.append([])
 
-	# for section in sections:
-	# 	print(f"\n\n\t\t{section}\n\n")
-	# 	for day in all_day_periods:
-	# 		print(f"\n{day[0].day}\n")
-	# 		for period in day:
-	# 			if period.section == section:
-	# 				print(period)
+	for i, section in enumerate(sections):
+		# print(f"\n\n\t\t{section}\n\n")
+		for day in all_day_periods:
+			# print(f"\n{day[0].day}\n")
+			for period in day:
+				if period.section == section:
+					section_periods[i].append(period)
+
+		# Create a Pandas Excel writer using XlsxWriter as the engine.
+	writer = pd.ExcelWriter('timetable.xlsx', engine='xlsxwriter')
+
+	row_numbers = []
+
+	with open("tt.txt", "w") as tt:
+		idx = 0
+		for i, section in enumerate(section_periods):
+			row_numbers.append(idx)
+
+			section_df = pd.DataFrame(["", sections[i], ""]).transpose()
+			section_df.to_excel(writer, sheet_name = 'Sheet1', startrow = idx, index = False, header = False)
+			print(f"\t\t{sections[i]}\n", file = tt)
+
+			df = pd.DataFrame([ [s.day, s.name, s.duration, s.venue] for s in section], columns = ["day", "name", "duration", "venue"])
+
+			# Convert the dataframe to an XlsxWriter Excel object.
+			df.to_excel(writer, sheet_name = 'Sheet1', startrow = idx + 1, index = False, header = False)
+
+			idx += len(section) + 2
+			print(f"{df.to_string(index = False)}\n", file = tt)
+
+	# Close the Pandas Excel writer and output the Excel file.
+	writer.save()
 
 
 print("\n--- %s seconds ---" % (time.time() - start_time))
+f2.close()
