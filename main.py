@@ -304,45 +304,42 @@ else:
 	for my_period in my_periods:
 		my_period_list[weekdays.index(my_period.day.lower())].append(my_period)
 
-	# workbook = xlsxwriter.Workbook('timetable.xlsx')
-	# ws1 = workbook.add_worksheet()
-	# merge_format = workbook.add_format({'align': 'center'})
-	# merge_format.set_bg_color('#BDD7EE')
+	workbook = xlsxwriter.Workbook('timetable.xlsx')
+	ws1 = workbook.add_worksheet()
+	merge_format = workbook.add_format({'align': 'center'})
+	merge_format.set_bg_color('#BDD7EE')
 
-	# j = 2
-	# k = 0
-	# color_codes = ['#BDD7EE', '#F4B084', '#A9D08E', '#AEAAAA', '#FFD966']
-	# ws1.merge_range(j - 1, 1, j - 1, 3, "Our TimeTable", merge_format)
-	# ws1.set_column(1, 3, len(my_courses_short[-1]) + len(sections[0]) + 1)	
-	# ws1.set_zoom(159)
-	# for i, day in enumerate(my_period_list):
-	# 	if len(my_period_list[i]) > 0:
-	# 		cell_format = workbook.add_format({'align': 'center'})
-	# 		cell_format.set_bg_color(color_codes[k])
-	# 		cell_format.set_align('center')
-	# 		ws1.merge_range(j, 1, j, 3, weekdays[i].upper()[0] + weekdays[i][1:], cell_format)
-	# 		j += 1
-	# 		# print(f"Day = {weekdays[i]}")
-	# 		my_period_list[i] = sorted(my_period_list[i], key=extractDuration)
-	# 		day = my_period_list[i]
-	# 		for my_period in day:
-	# 			cell_format2 = workbook.add_format()
-	# 			cell_format2.set_bg_color(color_codes[k])
-	# 			# my_period.tt_format()
-	# 			ws1.write(j, 1, f"{my_courses_short[my_courses.index(my_period.name)]}({my_period.section})", cell_format2)
-	# 			ws1.write(j, 2, str(my_period.venue), cell_format2)
-	# 			ws1.write(j, 3, str(my_period.duration), cell_format2)
-	# 			j += 1
-	# 		k += 1
-	# workbook.close()
+	j = 2
+	k = 0
+	color_codes = ['#BDD7EE', '#F4B084', '#A9D08E', '#AEAAAA', '#FFD966']
+	ws1.merge_range(j - 1, 1, j - 1, 3, "Our TimeTable", merge_format)
+	ws1.set_column(1, 3, len(my_courses_short[-1]) + len(sections[0]) + 1)	
+	ws1.set_zoom(159)
+	for i, day in enumerate(my_period_list):
+		if len(my_period_list[i]) > 0:
+			cell_format = workbook.add_format({'align': 'center'})
+			cell_format.set_bg_color(color_codes[k])
+			cell_format.set_align('center')
+			ws1.merge_range(j, 1, j, 3, weekdays[i].upper()[0] + weekdays[i][1:], cell_format)
+			j += 1
+			# print(f"Day = {weekdays[i]}")
+			my_period_list[i] = sorted(my_period_list[i], key=extractDuration)
+			day = my_period_list[i]
+			for my_period in day:
+				cell_format2 = workbook.add_format()
+				cell_format2.set_bg_color(color_codes[k])
+				# my_period.tt_format()
+				ws1.write(j, 1, f"{my_courses_short[my_courses.index(my_period.name)]}({my_period.section})", cell_format2)
+				ws1.write(j, 2, str(my_period.venue), cell_format2)
+				ws1.write(j, 3, str(my_period.duration), cell_format2)
+				j += 1
+			k += 1
+	workbook.close()
 	
-	# excel2img.export_img("timetable.xlsx", "timetable.png", "Sheet1", None)
-	# source = 'timetable.png'
-	# destination = 'C:\Data\SHIT-NUCES\Semester 6\TimeTable.png'
-	# dest = shutil.copyfile(source, destination)
-	# print(f"TimeTable copied at {dest}")
-
-	# client = discord_bot.MyClient()
-	# client.run('OTQyMDk1NTIwMjI1MTY5NDI5.Ygfg0w.lTkp9h-oUnlrPMHGgQYvnQLNeKE')
+	excel2img.export_img("timetable.xlsx", "timetable.png", "Sheet1", None)
+	source = 'timetable.png'
+	destination = 'C:\Data\SHIT-NUCES\Semester 6\TimeTable.png'
+	dest = shutil.copyfile(source, destination)
+	print(f"TimeTable copied at {dest}")
 
 f2.close()
