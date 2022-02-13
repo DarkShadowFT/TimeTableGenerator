@@ -27,6 +27,8 @@ class Period:
 	def day(self):
 		return self._day
 
+	def tt_format(self):
+		print(f"{self.name}({self.section})\t\t{self.venue}\t\t{self._startTime}-{self._endTime}")
 
 	def __str__(self):
-		return f"{self.name}({self.section})\t\t{self.startTime}-{self.endTime}\t\t{self.venue}\t\t{self.day}"
+		return f"{self.name}\t\t{self.section}\t\t{self.venue}\t\t{self._startTime}-{self._endTime}"
