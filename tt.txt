@@ -4,149 +4,149 @@
 
 
 Monday
-Database Systems		BCS-6A		Seminar Hall		11:30-12:50
-Digital Image Processing		BCS-6A		CS-2		08:30-09:50
-Sociology		BCS-6A		CS-4		14:30-15:50
-Organizational Behaviour		BCS-6A		CS-15		16:00-17:20
-Operating Systems		BCS-6A		E&M-4		10:00-11:20
-Design & Analysis of Algo		BCS-6A		E&M-5		13:00-14:20
-Compiler Construction		BCS-6A		E&M-5		14:30-15:50
-Theory of Automata		BCS-6A		E&M-11		13:00-14:20
-Software Engineering		BCS-6A		CS-8		10:00-11:20
-Operating Systems Lab		BCS-6A		Lab(CS-2B)		16:00-18:50
+Database Systems		BCS-6A		Seminar Hall		11:30-12:50		Monday
+Digital Image Processing		BCS-6A		CS-2		08:30-09:50		Monday
+Sociology		BCS-6A		CS-4		14:30-15:50		Monday
+Organizational Behaviour		BCS-6A		CS-15		16:00-17:20		Monday
+Operating Systems		BCS-6A		E&M-4		10:00-11:20		Monday
+Design & Analysis of Algo		BCS-6A		E&M-5		13:00-14:20		Monday
+Compiler Construction		BCS-6A		E&M-5		14:30-15:50		Monday
+Theory of Automata		BCS-6A		E&M-11		13:00-14:20		Monday
+Software Engineering		BCS-6A		CS-8		10:00-11:20		Monday
+Operating Systems Lab		BCS-6A		Lab(CS-2B)		16:00-18:50		Monday
 
 Tuesday
-Bio-informatics		BCS-6A		CS-2		13:00-14:20
-Parallel & Dist Computing		BCS-6A		CS-3		10:00-11:20
-Advance Database Concepts		BCS-6A		CS-3		11:30-12:50
-Web Progamming		BCS-6A		CS-3		14:30-15:50
-Software Design & Analysis		BCS-6A		CS-4		14:30-15:50
-Computer Networks		BCS-6A		CS-5		16:00-17:20
-Principles of Leadership		BCS-6A		CS-6		16:00-17:20
-Advanced Programming		BCS-6A		CS-7		08:30-09:50
-Entreprenuership		BCS-6A		CS-10		10:00-11:20
-Mass Communication		BCS-6A		E&M-1		11:20-12:40
-Marketing Management		BCS-6A		E&M-4		14:30-15:50
-Psychology		BCS-6A		E&M-11		13:00-14:20
+Bio-informatics		BCS-6A		CS-2		13:00-14:20		Tuesday
+Parallel & Dist Computing		BCS-6A		CS-3		10:00-11:20		Tuesday
+Advance Database Concepts		BCS-6A		CS-3		11:30-12:50		Tuesday
+Web Programming		BCS-6A		CS-3		14:30-15:50		Tuesday
+Software Design & Analysis		BCS-6A		CS-4		14:30-15:50		Tuesday
+Computer Networks		BCS-6A		CS-5		16:00-17:20		Tuesday
+Principles of Leadership		BCS-6A		CS-6		16:00-17:20		Tuesday
+Advanced Programming		BCS-6A		CS-7		08:30-09:50		Tuesday
+Entreprenuership		BCS-6A		CS-10		10:00-11:20		Tuesday
+Mass Communication		BCS-6A		E&M-1		11:20-12:40		Tuesday
+Marketing Management		BCS-6A		E&M-4		14:30-15:50		Tuesday
+Psychology		BCS-6A		E&M-11		13:00-14:20		Tuesday
 
 Wednesday
-Database Systems		BCS-6A		Seminar Hall		11:30-12:50
-Digital Image Processing		BCS-6A		CS-2		08:30-09:50
-Sociology		BCS-6A		CS-4		14:30-15:50
-Artificial Intelligence		BCS-6A		CS-10		11:30-12:50
-Organizational Behaviour		BCS-6A		CS-15		16:00-17:20
-Operating Systems		BCS-6A		E&M-4		10:00-11:20
-Design & Analysis of Algo		BCS-6A		E&M-5		13:00-14:20
-Compiler Construction		BCS-6A		E&M-5		14:30-15:50
-Theory of Automata		BCS-6A		E&M-11		13:00-14:20
-Software Engineering		BCS-6A		CS-8		10:00-11:20
-Computer Networks Lab		BCS-6A		Lab(CS-2B)		16:00-18:50
+Database Systems		BCS-6A		Seminar Hall		11:30-12:50		Wednesday
+Digital Image Processing		BCS-6A		CS-2		08:30-09:50		Wednesday
+Sociology		BCS-6A		CS-4		14:30-15:50		Wednesday
+Modern Politics & Gov		BCS-6A		CS-5		16:00-17:20		Wednesday
+Artificial Intelligence		BCS-6A		CS-10		11:30-12:50		Wednesday
+Organizational Behaviour		BCS-6A		CS-15		16:00-17:20		Wednesday
+Operating Systems		BCS-6A		E&M-4		10:00-11:20		Wednesday
+Design & Analysis of Algo		BCS-6A		E&M-5		13:00-14:20		Wednesday
+Compiler Construction		BCS-6A		E&M-5		14:30-15:50		Wednesday
+Theory of Automata		BCS-6A		E&M-11		13:00-14:20		Wednesday
+Software Engineering		BCS-6A		CS-8		10:00-11:20		Wednesday
+Computer Networks Lab		BCS-6A		Lab(CS-2B)		16:00-18:50		Wednesday
 
 Thursday
-Entreprenuership		BCS-6A		CS-2		10:00-11:20
-Bio-informatics		BCS-6A		CS-2		13:00-14:20
-Parallel & Dist Computing		BCS-6A		CS-3		10:00-11:20
-Advance Database Concepts		BCS-6A		CS-3		11:30-12:50
-Web Progamming		BCS-6A		CS-3		14:30-15:50
-Software Design & Analysis		BCS-6A		CS-4		14:30-15:50
-Computer Networks		BCS-6A		CS-5		16:00-17:20
-Principles of Leadership		BCS-6A		CS-6		16:00-17:20
-Mass Communication		BCS-6A		E&M-1		11:20-12:40
-Marketing Management		BCS-6A		E&M-4		14:30-15:50
-Psychology		BCS-6A		E&M-11		13:00-14:20
+Entreprenuership		BCS-6A		CS-2		10:00-11:20		Thursday
+Bio-informatics		BCS-6A		CS-2		13:00-14:20		Thursday
+Parallel & Dist Computing		BCS-6A		CS-3		10:00-11:20		Thursday
+Advance Database Concepts		BCS-6A		CS-3		11:30-12:50		Thursday
+Web Programming		BCS-6A		CS-3		14:30-15:50		Thursday
+Software Design & Analysis		BCS-6A		CS-4		14:30-15:50		Thursday
+Computer Networks		BCS-6A		CS-5		16:00-17:20		Thursday
+Principles of Leadership		BCS-6A		CS-6		16:00-17:20		Thursday
+Mass Communication		BCS-6A		E&M-1		11:20-12:40		Thursday
+Marketing Management		BCS-6A		E&M-4		14:30-15:50		Thursday
+Psychology		BCS-6A		E&M-11		13:00-14:20		Thursday
 
 Friday
-Software for Mobile Devices		BCS-6A		CS-3		14:30-15:50
-Modern Politics & Gov		BCS-6A		CS-5		14:30-15:50
-Advanced Programming		BCS-6A		CS-7		08:30-09:50
-Artificial Intelligence		BCS-6A		CS-10		11:30-12:50
+Software for Mobile Devices		BCS-6A		CS-3		14:30-15:50		Friday
+Modern Politics & Gov		BCS-6A		CS-5		14:30-15:50		Friday
+Advanced Programming		BCS-6A		CS-7		08:30-09:50		Friday
+Artificial Intelligence		BCS-6A		CS-10		11:30-12:50		Friday
 
 Saturday
-Software for Mobile Devices		BCS-6A		CS-3		14:30-15:50
-Modern Politics & Gov		BCS-6A		CS-5		14:30-15:50
-Database Systems Lab		BCS-6A		Lab(CS-8)		08:30-11:20
-Artificial Intelligence Lab		BCS-6A		Lab(CS-8)		11:30-14:20
+Software for Mobile Devices		BCS-6A		CS-3		14:30-15:50		Saturday
+Database Systems Lab		BCS-6A		Lab(CS-8)		08:30-11:20		Saturday
+Artificial Intelligence Lab		BCS-6A		Lab(CS-8)		11:30-14:20		Saturday
 
 
 		BCS-6B
 
 
 Monday
-Digital Image Processing		BCS-6B		CS-2		11:30-12:50
-Theory of Automata		BCS-6B		E&M-11		14:30-15:50
+Digital Image Processing		BCS-6B		CS-2		11:30-12:50		Monday
+Theory of Automata		BCS-6B		E&M-11		14:30-15:50		Monday
 
 Tuesday
-Parallel & Dist Computing		BCS-6B		CS-3		13:00-14:20
-Software Engineering		BCS-6B		CS-4		10:00-11:20
-Artificial Intelligence		BCS-6B		CS-5		11:30-12:50
-Computer Networks		BCS-6B		CS-5		14:30-15:50
+Parallel & Dist Computing		BCS-6B		CS-3		13:00-14:20		Tuesday
+Software Engineering		BCS-6B		CS-4		10:00-11:20		Tuesday
+Artificial Intelligence		BCS-6B		CS-5		11:30-12:50		Tuesday
+Computer Networks		BCS-6B		CS-5		14:30-15:50		Tuesday
 
 Wednesday
-Digital Image Processing		BCS-6B		CS-2		11:30-12:50
-Theory of Automata		BCS-6B		E&M-11		14:30-15:50
+Digital Image Processing		BCS-6B		CS-2		11:30-12:50		Wednesday
+Theory of Automata		BCS-6B		E&M-11		14:30-15:50		Wednesday
 
 Thursday
-Parallel & Dist Computing		BCS-6B		CS-3		13:00-14:20
-Software Engineering		BCS-6B		CS-4		10:00-11:20
-Artificial Intelligence		BCS-6B		CS-5		11:30-12:50
-Computer Networks		BCS-6B		CS-5		14:30-15:50
+Parallel & Dist Computing		BCS-6B		CS-3		13:00-14:20		Thursday
+Software Engineering		BCS-6B		CS-4		10:00-11:20		Thursday
+Artificial Intelligence		BCS-6B		CS-5		11:30-12:50		Thursday
+Computer Networks		BCS-6B		CS-5		14:30-15:50		Thursday
 
 Friday
-Software for Mobile Devices		BCS-6B		CS-3		16:00-17:20
+Software for Mobile Devices		BCS-6B		CS-3		16:00-17:20		Friday
 
 Saturday
-Software for Mobile Devices		BCS-6B		CS-3		16:00-17:20
-Artificial Intelligence Lab		BCS-6B		Lab(CS-9)		08:30-11:20
-Computer Networks Lab		BCS-6B		Lab(CS-9)		11:30-14:20
+Software for Mobile Devices		BCS-6B		CS-3		16:00-17:20		Saturday
+Artificial Intelligence Lab		BCS-6B		Lab(CS-9)		08:30-11:20		Saturday
+Computer Networks Lab		BCS-6B		Lab(CS-9)		11:30-14:20		Saturday
 
 
 		BCS-6C
 
 
 Monday
-Theory of Automata		BCS-6C		CS-5		13:00-14:20
-Parallel & Dist Computing		BCS-6C		CS-7		08:30-09:50
+Theory of Automata		BCS-6C		CS-5		13:00-14:20		Monday
+Parallel & Dist Computing		BCS-6C		CS-7		08:30-09:50		Monday
 
 Tuesday
-Computer Networks		BCS-6C		CS-2		08:30-09:50
-Software Engineering		BCS-6C		CS-16		10:00-11:20
-Artificial Intelligence		BCS-6C		E&M-4		13:00-14:20
+Computer Networks		BCS-6C		CS-2		08:30-09:50		Tuesday
+Software Engineering		BCS-6C		CS-16		10:00-11:20		Tuesday
+Artificial Intelligence		BCS-6C		E&M-4		13:00-14:20		Tuesday
 
 Wednesday
-Theory of Automata		BCS-6C		CS-5		13:00-14:20
-Parallel & Dist Computing		BCS-6C		CS-7		08:30-09:50
+Theory of Automata		BCS-6C		CS-5		13:00-14:20		Wednesday
+Parallel & Dist Computing		BCS-6C		CS-7		08:30-09:50		Wednesday
 
 Thursday
-Computer Networks		BCS-6C		CS-2		08:30-09:50
-Software Engineering		BCS-6C		CS-16		10:00-11:20
-Artificial Intelligence		BCS-6C		E&M-4		13:00-14:20
+Computer Networks		BCS-6C		CS-2		08:30-09:50		Thursday
+Software Engineering		BCS-6C		CS-16		10:00-11:20		Thursday
+Artificial Intelligence		BCS-6C		E&M-4		13:00-14:20		Thursday
 
 Friday
 
 Saturday
-Artificial Intelligence Lab		BCS-6C		Lab(CS-6)		08:30-11:20
-Computer Networks Lab		BCS-6C		Lab(CS-6)		11:30-14:20
+Artificial Intelligence Lab		BCS-6C		Lab(CS-6)		08:30-11:20		Saturday
+Computer Networks Lab		BCS-6C		Lab(CS-6)		11:30-14:20		Saturday
 
 
 		BCS-6D
 
 
 Monday
-Theory of Automata		BCS-6D		CS-5		14:30-15:50
-Parallel & Dist Computing		BCS-6D		CE-2		13:00-14:20
-Artificial Intelligence Lab		BCS-6D		Lab(CS-2B)		08:30-11:20
+Theory of Automata		BCS-6D		CS-5		14:30-15:50		Monday
+Parallel & Dist Computing		BCS-6D		CE-2		13:00-14:20		Monday
+Artificial Intelligence Lab		BCS-6D		Lab(CS-2B)		08:30-11:20		Monday
 
 Tuesday
-Artificial Intelligence		BCS-6D		CS-5		10:00-11:20
-Software Engineering		BCS-6D		CS-16		11:30-12:50
+Artificial Intelligence		BCS-6D		CS-5		10:00-11:20		Tuesday
+Software Engineering		BCS-6D		CS-16		11:30-12:50		Tuesday
 
 Wednesday
-Theory of Automata		BCS-6D		CS-5		14:30-15:50
-Parallel & Dist Computing		BCS-6D		CE-2		13:00-14:20
+Theory of Automata		BCS-6D		CS-5		14:30-15:50		Wednesday
+Parallel & Dist Computing		BCS-6D		CE-2		13:00-14:20		Wednesday
 
 Thursday
-Artificial Intelligence		BCS-6D		CS-5		10:00-11:20
-Software Engineering		BCS-6D		CS-16		11:30-12:50
+Artificial Intelligence		BCS-6D		CS-5		10:00-11:20		Thursday
+Software Engineering		BCS-6D		CS-16		11:30-12:50		Thursday
 
 Friday
 
@@ -157,44 +157,44 @@ Saturday
 
 
 Monday
-Parallel & Dist Computing		BCS-6E		CS-8		08:30-09:50
+Parallel & Dist Computing		BCS-6E		CS-8		08:30-09:50		Monday
 
 Tuesday
-Software Engineering		BCS-6E		CS-5		13:00-14:20
-Artificial Intelligence		BCS-6E		CE-2		11:30-12:50
+Software Engineering		BCS-6E		CS-5		13:00-14:20		Tuesday
+Artificial Intelligence		BCS-6E		CE-2		11:30-12:50		Tuesday
 
 Wednesday
-Parallel & Dist Computing		BCS-6E		CS-8		08:30-09:50
+Parallel & Dist Computing		BCS-6E		CS-8		08:30-09:50		Wednesday
 
 Thursday
-Software Engineering		BCS-6E		CS-5		13:00-14:20
-Artificial Intelligence		BCS-6E		CE-2		11:30-12:50
+Software Engineering		BCS-6E		CS-5		13:00-14:20		Thursday
+Artificial Intelligence		BCS-6E		CE-2		11:30-12:50		Thursday
 
 Friday
 
 Saturday
-Artificial Intelligence Lab		BCS-6E		Lab(CS-1)		11:30-14:20
+Artificial Intelligence Lab		BCS-6E		Lab(CS-1)		11:30-14:20		Saturday
 
 
 		BCS-6F
 
 
 Monday
-Parallel & Dist Computing		BCS-6F		CS-2		10:00-11:20
-Artificial Intelligence		BCS-6F		E&M-4		11:30-12:50
+Parallel & Dist Computing		BCS-6F		CS-2		10:00-11:20		Monday
+Artificial Intelligence		BCS-6F		E&M-4		11:30-12:50		Monday
 
 Tuesday
-Software Engineering		BCS-6F		CS-6		13:00-14:20
-Artificial Intelligence Lab		BCS-6F		Lab(CS-1)		16:00-18:50
+Software Engineering		BCS-6F		E&M-3		08:30-09:50		Tuesday
+Artificial Intelligence Lab		BCS-6F		Lab(CS-1)		16:00-18:50		Tuesday
 
 Wednesday
-Parallel & Dist Computing		BCS-6F		CS-2		10:00-11:20
-Artificial Intelligence		BCS-6F		CS-15		11:30-12:50
+Parallel & Dist Computing		BCS-6F		CS-2		10:00-11:20		Wednesday
+Artificial Intelligence		BCS-6F		CS-15		11:30-12:50		Wednesday
 
 Thursday
-Software Engineering		BCS-6F		CS-6		13:00-14:20
 
 Friday
+Software Engineering		BCS-6F		E&M-3		08:30-09:50		Friday
 
 Saturday
 
@@ -203,13 +203,13 @@ Saturday
 
 
 Monday
-Artificial Intelligence		BCS-6G		E&M-2		10:00-11:20
-Artificial Intelligence Lab		BCS-6G		Lab(CS-1)		16:00-18:50
+Artificial Intelligence		BCS-6G		E&M-2		10:00-11:20		Monday
+Artificial Intelligence Lab		BCS-6G		Lab(CS-1)		16:00-18:50		Monday
 
 Tuesday
 
 Wednesday
-Artificial Intelligence		BCS-6G		E&M-2		10:00-11:20
+Artificial Intelligence		BCS-6G		E&M-2		10:00-11:20		Wednesday
 
 Thursday
 
@@ -222,15 +222,15 @@ Saturday
 
 
 Monday
-Artificial Intelligence		BCS-6H		E&M-2		08:30-09:50
+Artificial Intelligence		BCS-6H		E&M-2		08:30-09:50		Monday
 
 Tuesday
 
 Wednesday
-Artificial Intelligence		BCS-6H		E&M-2		08:30-09:50
+Artificial Intelligence		BCS-6H		E&M-2		08:30-09:50		Wednesday
 
 Thursday
-Artificial Intelligence Lab		BCS-6H		Lab(CS-9)		08:30-11:20
+Artificial Intelligence Lab		BCS-6H		Lab(CS-9)		08:30-11:20		Thursday
 
 Friday
 
@@ -243,14 +243,14 @@ Saturday
 Monday
 
 Tuesday
-Artificial Intelligence		BCS-6J		CS-11		08:30-09:50
+Artificial Intelligence		BCS-6J		CS-11		08:30-09:50		Tuesday
 
 Wednesday
 
 Thursday
-Artificial Intelligence		BCS-6J		CS-11		08:30-09:50
+Artificial Intelligence		BCS-6J		CS-11		08:30-09:50		Thursday
 
 Friday
-Artificial Intelligence Lab		BCS-6J		Lab(CS-1)		10:00-12:50
+Artificial Intelligence Lab		BCS-6J		Lab(CS-1)		10:00-12:50		Friday
 
 Saturday

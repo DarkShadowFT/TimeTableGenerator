@@ -4,7 +4,6 @@ from xlwings import Range, Book
 from Period import Period
 import pandas as pd
 import xlsxwriter, shutil, excel2img
-import discord_bot
 
 
 def extractDuration(period):
@@ -14,13 +13,36 @@ def extractDay(period):
 	index = weekdays.index(period.day.lower())
 	return index
 
+def deleteTxtFiles():
+	if os.path.exists('tt.txt'):
+		os.remove('tt.txt')
+	if os.path.exists('Output.txt'):
+		os.remove('Output.txt')
+	if os.path.exists('periods.txt'):
+		os.remove('periods.txt')
+
 def latestWorkBook():
+	newTT = True
 	tt_files = []
-	for root, dir, files in os.walk("C:\Data\SHIT-NUCES\Semester 6"):
+	for root, dir, files in os.walk("C:\Data\SHIT-NUCES\Current Semester"):
 		for file in files:
-			if file.lower().find("fast school of computing time table spring 2022") == 0 and file.lower().find("~$") == -1:
+			if file.lower().find("fast school of computing time table") == 0 and file.lower().find("~$") == -1:
 				tt_files.append(os.path.join(root, file))
-	return tt_files[-1]
+
+	with open("tt version.txt", "a") as ttv1:
+		pass
+
+	tt_version = ""
+	with open("tt version.txt", "r") as ttv2:
+		tt_version = ttv2.read()
+
+	if tt_version == "" or (tt_version != '' and tt_version != tt_files[-1]):
+		with open("tt version.txt", "w") as ttv3:
+			ttv3.write(tt_files[-1])
+		deleteTxtFiles()
+	else:
+		newTT = False
+	return newTT
 
 def get_time(start_time, minutes):
 	res = ""
@@ -112,14 +134,19 @@ def make_timetable():
 	
 	p_file.close()
 
+if not latestWorkBook():
+	print("No new timetable detected")
+	exit()
 
-start_time = time.time()
-path = latestWorkBook()
+
+path = ""
+with open("tt version.txt", "r") as ttv:
+	path = ttv.read()
 wb = Book(path)
 
 wb = wb.sheets[0]
 wb_obj = openpyxl.load_workbook(path, True)
-sheet_obj = wb_obj.active
+sheet_obj = wb_obj['FSC TT (Spring 2022)']
 
 print("Workbook loaded")
 max_row = sheet_obj.max_row
@@ -156,190 +183,190 @@ if len(contents) == 0:
 				print('\t', end = '', file = f)
 			print(file = f)
 
+with open("Output.txt", "r") as w:
+	data = w.read().split('\n')
+	for i, words in enumerate(data):
+		data[i] = words.split('\t')
+
+
+weekdays = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+
+# Create periods.txt if not created
+p1 = open("periods.txt", "a")
+p1.close()
+
+periods = []
+p2 = open("periods.txt", "r")
+p2_contents = p2.read()
+if len(p2_contents) == 0:
+	make_timetable()
 else:
-	with open("Output.txt", "r") as w:
-		data = w.read().split('\n')
-		for i, words in enumerate(data):
-			data[i] = words.split('\t')
+	periods = p2_contents.split('\n')
 
+wb_obj.close()
 
-	weekdays = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
-	
-	# Create periods.txt if not created
-	p1 = open("periods.txt", "a")
-	p1.close()
+mon_periods, tue_periods, wed_periods, thu_periods, fri_periods, sat_periods = [], [], [], [], [], []
+sections = ["BCS-6A", "BCS-6B", "BCS-6C", "BCS-6D", "BCS-6E", "BCS-6F", "BCS-6G", "BCS-6H", "BCS-6J"]
+with open("periods.txt", "r") as w:
+	f = w.read().split('\n')
+	for period in f:
+		if period != '':
+			p = period.split('\t\t')
+			name = p[0].strip()
+			section = p[1]
+			startTime = p[3].split('-')[0]
+			endTime = p[3].split('-')[1]
+			venue = p[2]
+			day = p[4]
+			period = Period(startTime, endTime, name, section, venue, day)
 
-	periods = []
-	p2 = open("periods.txt", "r")
-	p2_contents = p2.read()
-	if len(p2_contents) == 0:
-		make_timetable()
-	else:
-		periods = p2_contents.split('\n')
+			if period.day == "Monday" and period.section in sections:
+				mon_periods.append(period)
+			elif period.day == "Tuesday" and period.section in sections:
+				tue_periods.append(period)
+			elif period.day == "Wednesday" and period.section in sections:
+				wed_periods.append(period)
+			elif period.day == "Thursday" and period.section in sections:
+				thu_periods.append(period)
+			elif period.day == "Friday" and period.section in sections:
+				fri_periods.append(period)
+			elif period.day == "Saturday" and period.section in sections:
+				sat_periods.append(period)
 
-	wb_obj.close()
-	
-	mon_periods, tue_periods, wed_periods, thu_periods, fri_periods, sat_periods = [], [], [], [], [], []
-	sections = ["BCS-6A", "BCS-6B", "BCS-6C", "BCS-6D", "BCS-6E", "BCS-6F", "BCS-6G", "BCS-6H", "BCS-6J"]
-	with open("periods.txt", "r") as w:
-		f = w.read().split('\n')
-		for period in f:
-			if period != '':
-				p = period.split('\t\t')
-				name = p[0].split('(')[0].strip()
-				section = p[0].split('(')[1].split(')')[0]
-				startTime = p[1].split('-')[0]
-				endTime = p[1].split('-')[1]
-				venue = p[2]
-				day = p[3]
-				period = Period(startTime, endTime, name, section, venue, day)
+all_day_periods = [mon_periods, tue_periods, wed_periods, thu_periods, fri_periods, sat_periods]
 
-				if period.day == "Monday" and period.section in sections:
-					mon_periods.append(period)
-				elif period.day == "Tuesday" and period.section in sections:
-					tue_periods.append(period)
-				elif period.day == "Wednesday" and period.section in sections:
-					wed_periods.append(period)
-				elif period.day == "Thursday" and period.section in sections:
-					thu_periods.append(period)
-				elif period.day == "Friday" and period.section in sections:
-					fri_periods.append(period)
-				elif period.day == "Saturday" and period.section in sections:
-					sat_periods.append(period)
+sec_periods = []
+for section in sections:
+	sec_periods.append([])
 
-	all_day_periods = [mon_periods, tue_periods, wed_periods, thu_periods, fri_periods, sat_periods]
-
-	sec_periods = []
-	for section in sections:
-		sec_periods.append([])
-
-	with open("tt.txt", "w") as tt:
-		for i, section in enumerate(sections):
-			temp = f"\n\n\t\t{section}\n\n" 
+with open("tt.txt", "w") as tt:
+	for i, section in enumerate(sections):
+		temp = f"\n\n\t\t{section}\n\n" 
+		tt.write(temp)
+		for day in all_day_periods:
+			temp = f"\n{day[0].day}\n"
 			tt.write(temp)
-			for day in all_day_periods:
-				temp = f"\n{day[0].day}\n"
-				tt.write(temp)
-				for period in day:
-					if period.section == section:
-						print(period, file = tt)
-						sec_periods[sections.index(section)].append(period)
+			for period in day:
+				if period.section == section:
+					print(period, file = tt)
+					sec_periods[sections.index(section)].append(period)
 
 
-	# # Create a Pandas Excel writer using XlsxWriter as the engine.
-	# writer = pd.ExcelWriter('timetable.xlsx', engine='xlsxwriter')
+# # Create a Pandas Excel writer using XlsxWriter as the engine.
+# writer = pd.ExcelWriter('timetable.xlsx', engine='xlsxwriter')
 
-	row_numbers = []
+row_numbers = []
 
-	# with open("tt.txt", "w") as tt:
-	# 	idx = 0
-	# 	for i, section in enumerate(section_periods):
-	# 		row_numbers.append(idx)
+# with open("tt.txt", "w") as tt:
+# 	idx = 0
+# 	for i, section in enumerate(section_periods):
+# 		row_numbers.append(idx)
 
-	# 		section_df = pd.DataFrame(["", sections[i], ""]).transpose()
-	# 		# section_df.to_excel(writer, sheet_name = 'Sheet1', startrow = idx, index = False, header = False)
-	# 		print(f"\t\t{sections[i]}\n", file = tt)
+# 		section_df = pd.DataFrame(["", sections[i], ""]).transpose()
+# 		# section_df.to_excel(writer, sheet_name = 'Sheet1', startrow = idx, index = False, header = False)
+# 		print(f"\t\t{sections[i]}\n", file = tt)
 
-	# 		df = pd.DataFrame([ [s.day, s.name, s.duration, s.venue] for s in section], columns = ["day", "name", "duration", "venue"])
+# 		df = pd.DataFrame([ [s.day, s.name, s.duration, s.venue] for s in section], columns = ["day", "name", "duration", "venue"])
 
-	# 		# Convert the dataframe to an XlsxWriter Excel object.
-	# 		# df.to_excel(writer, sheet_name = 'Sheet1', startrow = idx + 1, index = False, header = False)
+# 		# Convert the dataframe to an XlsxWriter Excel object.
+# 		# df.to_excel(writer, sheet_name = 'Sheet1', startrow = idx + 1, index = False, header = False)
 
-	# 		idx += len(section) + 2
-	# 		print(f"{df.to_string(index = False)}\n", file = tt)
+# 		idx += len(section) + 2
+# 		print(f"{df.to_string(index = False)}\n", file = tt)
 
-	# # Close the Pandas Excel writer and output the Excel file.
-	# writer.save()
+# # Close the Pandas Excel writer and output the Excel file.
+# writer.save()
 
-	workbook = xlsxwriter.Workbook('timetable all sections in Batch.xlsx')
-	ws1 = workbook.add_worksheet()
-	ws1.set_column(1, 1, 30)
-	ws1.set_column(2, 2, 12)
-	ws1.set_column(3, 3, 11)
-	merge_format = workbook.add_format({'align': 'center'})
-	merge_format.set_border()
-	border_format = workbook.add_format()
-	border_format.set_border()
-	with open("tt.txt", "r") as f_tt:
-		contents = f_tt.read().split('\n')
-		i = 0
-		for row in contents:
-			if row.strip() == '':
-				continue
-			period = row.split('\t\t')
-			if row.strip() in sections:				
-				ws1.write(i, 1, ' ')
-				ws1.merge_range(i + 1, 1, i + 1, 3, row.strip(), merge_format)
-				i += 1
-			elif row.strip().lower() in weekdays:
-				ws1.merge_range(i, 1, i, 3, row.strip(), merge_format)
-			elif len(period) == 4:
-				j = 0
-				k = j + 1
-				while j < len(period):
-					if period[j] not in sections:
-						ws1.write(i, k, str(period[j]), border_format)
-						k += 1
-					j += 1
+workbook = xlsxwriter.Workbook('timetable all sections in Batch.xlsx')
+ws1 = workbook.add_worksheet()
+ws1.set_column(1, 1, 30)
+ws1.set_column(2, 2, 12)
+ws1.set_column(3, 3, 11)
+merge_format = workbook.add_format({'align': 'center'})
+merge_format.set_border()
+border_format = workbook.add_format()
+border_format.set_border()
+with open("tt.txt", "r") as f_tt:
+	contents = f_tt.read().split('\n')
+	i = 0
+	for row in contents:
+		if row.strip() == '':
+			continue
+		period = row.split('\t\t')
+		if row.strip() in sections:				
+			ws1.write(i, 1, ' ')
+			ws1.merge_range(i + 1, 1, i + 1, 3, row.strip(), merge_format)
 			i += 1
-	workbook.close()
-
-	my_choices = [["Parallel & Dist Computing", "BCS-6C"], ["Compiler Construction", "BCS-6A"], ["Organizational Behaviour", "BCS-6A"], 
-				  ["Artificial Intelligence", "BCS-6B"], ["Software Engineering", "BCS-6F"], ["Artificial Intelligence Lab", "BCS-6B"]]
-	my_courses = ["Parallel & Dist Computing", "Compiler Construction", "Organizational Behaviour", 
-				  "Artificial Intelligence", "Software Engineering", "Artificial Intelligence Lab"]
-	my_courses_short = ["PDC", "CC", "OB", "AI", "SE", "AI Lab"]				  
-				  
-	my_periods = []
-	for section in sec_periods:
-		for period in section:
-			for my_choice in my_choices:
-				if my_choice[0] == period.name and my_choice[1] == period.section:
-					my_periods.append(period)
-	
-	my_period_list = []
-	for weekday in weekdays:
-		my_period_list.append([])
-
-	for my_period in my_periods:
-		my_period_list[weekdays.index(my_period.day.lower())].append(my_period)
-
-	workbook = xlsxwriter.Workbook('timetable.xlsx')
-	ws1 = workbook.add_worksheet()
-	merge_format = workbook.add_format({'align': 'center'})
-	merge_format.set_bg_color('#BDD7EE')
-
-	j = 2
-	k = 0
-	color_codes = ['#BDD7EE', '#F4B084', '#A9D08E', '#AEAAAA', '#FFD966']
-	ws1.merge_range(j - 1, 1, j - 1, 3, "Our TimeTable", merge_format)
-	ws1.set_column(1, 3, len(my_courses_short[-1]) + len(sections[0]) + 1)	
-	ws1.set_zoom(159)
-	for i, day in enumerate(my_period_list):
-		if len(my_period_list[i]) > 0:
-			cell_format = workbook.add_format({'align': 'center'})
-			cell_format.set_bg_color(color_codes[k])
-			cell_format.set_align('center')
-			ws1.merge_range(j, 1, j, 3, weekdays[i].upper()[0] + weekdays[i][1:], cell_format)
-			j += 1
-			# print(f"Day = {weekdays[i]}")
-			my_period_list[i] = sorted(my_period_list[i], key=extractDuration)
-			day = my_period_list[i]
-			for my_period in day:
-				cell_format2 = workbook.add_format()
-				cell_format2.set_bg_color(color_codes[k])
-				# my_period.tt_format()
-				ws1.write(j, 1, f"{my_courses_short[my_courses.index(my_period.name)]}({my_period.section})", cell_format2)
-				ws1.write(j, 2, str(my_period.venue), cell_format2)
-				ws1.write(j, 3, str(my_period.duration), cell_format2)
+		elif row.strip().lower() in weekdays:
+			ws1.merge_range(i, 1, i, 3, row.strip(), merge_format)
+		elif len(period) == 5:
+			j = 0
+			k = j + 1
+			while j < len(period):
+				if period[j] not in sections and period[j].lower() not in weekdays:
+					ws1.write(i, k, str(period[j]), border_format)
+					k += 1
 				j += 1
-			k += 1
-	workbook.close()
-	
-	excel2img.export_img("timetable.xlsx", "timetable.png", "Sheet1", None)
-	source = 'timetable.png'
-	destination = 'C:\Data\SHIT-NUCES\Semester 6\TimeTable.png'
-	dest = shutil.copyfile(source, destination)
-	print(f"TimeTable copied at {dest}")
+		i += 1
+workbook.close()
+
+my_choices = [["Parallel & Dist Computing", "BCS-6C"], ["Compiler Construction", "BCS-6A"], ["Organizational Behaviour", "BCS-6A"], 
+				["Artificial Intelligence", "BCS-6B"], ["Software Engineering", "BCS-6F"], ["Artificial Intelligence Lab", "BCS-6B"]]
+my_courses = ["Parallel & Dist Computing", "Compiler Construction", "Organizational Behaviour", 
+				"Artificial Intelligence", "Software Engineering", "Artificial Intelligence Lab"]
+my_courses_short = ["PDC", "CC", "OB", "AI", "SE", "AI Lab"]				  
+				
+my_periods = []
+for section in sec_periods:
+	for period in section:
+		for my_choice in my_choices:
+			if my_choice[0] == period.name and my_choice[1] == period.section:
+				my_periods.append(period)
+
+my_period_list = []
+for weekday in weekdays:
+	my_period_list.append([])
+
+for my_period in my_periods:
+	my_period_list[weekdays.index(my_period.day.lower())].append(my_period)
+
+workbook = xlsxwriter.Workbook('timetable.xlsx')
+ws1 = workbook.add_worksheet()
+merge_format = workbook.add_format({'align': 'center'})
+merge_format.set_bg_color('#BDD7EE')
+
+j = 2
+k = 0
+color_codes = ['#BDD7EE', '#F4B084', '#A9D08E', '#AEAAAA', '#FFD966', '#FF99FF']
+ws1.merge_range(j - 1, 1, j - 1, 3, "Our TimeTable", merge_format)
+ws1.set_column(1, 3, len(my_courses_short[-1]) + len(sections[0]) + 1)	
+ws1.set_zoom(159)
+for i, day in enumerate(my_period_list):
+	if len(my_period_list[i]) > 0:
+		cell_format = workbook.add_format({'align': 'center'})
+		cell_format.set_bg_color(color_codes[k])
+		cell_format.set_align('center')
+		ws1.merge_range(j, 1, j, 3, weekdays[i].upper()[0] + weekdays[i][1:], cell_format)
+		j += 1
+		# print(f"Day = {weekdays[i]}")
+		my_period_list[i] = sorted(my_period_list[i], key=extractDuration)
+		day = my_period_list[i]
+		for my_period in day:
+			cell_format2 = workbook.add_format()
+			cell_format2.set_bg_color(color_codes[k])
+			# my_period.tt_format()
+			ws1.write(j, 1, f"{my_courses_short[my_courses.index(my_period.name)]}({my_period.section})", cell_format2)
+			ws1.write(j, 2, str(my_period.venue), cell_format2)
+			ws1.write(j, 3, str(my_period.duration), cell_format2)
+			j += 1
+		k += 1
+workbook.close()
+
+excel2img.export_img("timetable.xlsx", "timetable.png", "Sheet1", None)
+dest = shutil.copyfile('C:\Data\SHIT-NUCES\Current Semester\TimeTable.png', 'C:\Data\SHIT-NUCES\Current Semester\TimeTable(Copy).png')
+dest = shutil.copyfile('timetable.png', 'C:\Data\SHIT-NUCES\Current Semester\TimeTable.png')
+dest = shutil.copyfile('C:\Data\SHIT-NUCES\Current Semester\TimeTable.xlsx', 'C:\Data\SHIT-NUCES\Current Semester\TimeTable(Copy).xlsx')
+dest = shutil.copyfile('timetable.xlsx', 'C:\Data\SHIT-NUCES\Current Semester\TimeTable.xlsx')
+print(f"TimeTable copied at {dest}")
 
 f2.close()

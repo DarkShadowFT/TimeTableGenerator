@@ -31,4 +31,4 @@ class Period:
 		print(f"{self.name}({self.section})\t\t{self.venue}\t\t{self._startTime}-{self._endTime}")
 
 	def __str__(self):
-		return f"{self.name}\t\t{self.section}\t\t{self.venue}\t\t{self._startTime}-{self._endTime}"
+		return f"{self.name}\t\t{self.section}\t\t{self.venue}\t\t{self._startTime}-{self._endTime}\t\t{self._day}"
