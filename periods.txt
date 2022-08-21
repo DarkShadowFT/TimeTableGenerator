@@ -1,642 +1,689 @@
-Database Systems 		BDS-4A		Seminar Hall		08:30-09:50		Monday
-Funda. of Software Eng 		BDS-4A		Seminar Hall		10:00-11:20		Monday
-Database Systems 		BCS-6A		Seminar Hall		11:30-12:50		Monday
-Digital Image Processing 		BCS-6A		CS-2		08:30-09:50		Monday
-Parallel & Dist Computing 		BCS-6F		CS-2		10:00-11:20		Monday
-Digital Image Processing 		BCS-6B		CS-2		11:30-12:50		Monday
-Object Oriented Programming 		BCS-2L		CS-2		13:00-14:20		Monday
-Object Oriented Programming 		BDS-2A		CS-2		14:30-15:50		Monday
-Software Testing 		BCS-8B		CS-2		16:00-17:20		Monday
-Software Quality Assurance & Management 		MSP-2A		CS-2		17:30-20:20		Monday
-Digital Logic Design 		BCS-2C		CS-3		08:30-09:50		Monday
-Database Systems 		BCS-4A		CS-3		10:00-11:20		Monday
-Database Systems 		BCS-4B		CS-3		11:30-12:50		Monday
-Database Systems 		BCS-4C		CS-3		14:30-15:50		Monday
-International Relations 		BCS-8A		CS-3		16:00-17:20		Monday
-Design & Analysis of Algo 		BCS-4D		CS-4		08:30-09:50		Monday
-Database Systems 		BCS-4D		CS-4		10:00-11:20		Monday
-Design & Analysis of Algo 		BCS-4C		CS-4		11:30-12:50		Monday
-Object Oriented Programming 		BDS-2C		CS-4		13:00-14:20		Monday
-Sociology 		BCS-6A		CS-4		14:30-15:50		Monday
-Professional Practices in IT 		BCS-8A		CS-4		16:00-17:20		Monday
-Object Oriented Programming 		BCS-2J		CS-5		10:00-11:20		Monday
-Database Systems 		BSE-4A		CS-5		11:30-12:50		Monday
-Theory of Automata 		BCS-6C		CS-5		13:00-14:20		Monday
-Theory of Automata 		BCS-6D		CS-5		14:30-15:50		Monday
-Discrete Structures 		BSE-4A		CS-6		08:30-09:50		Monday
-Discrete Structures 		BSE-4B		CS-6		10:00-11:20		Monday
-Digital Logic Design 		BCS-2K		CS-6		11:30-12:50		Monday
-Data Structures 		BCS-4E		CS-6		14:30-15:50		Monday
-Parallel & Dist Computing 		BCS-6C		CS-7		08:30-09:50		Monday
-Blockchain and Cryptocurrency 		BCS-8A		CS-7		10:00-11:20		Monday
-Differential Equations 		BDS-2D		CS-7		11:30-12:50		Monday
-Parallel & Dist Computing 		BCS-8A		CS-7		13:00-14:20		Monday
-Islamic Studies/Ethics 		BCS-2L		CS-9		08:30-09:50		Monday
-Digital Logic Design 		BCS-2E		CS-9		10:00-11:20		Monday
-Digital Logic Design 		BCS-2G		CS-9		11:30-12:50		Monday
-Probability & Statistics 		BSE-4B		CS-9		14:30-15:50		Monday
-Object Oriented Analysis & Design 		BCS-8A		CS-10		08:30-09:50		Monday
-Differential Equations 		BCS-2L		CS-10		10:00-11:20		Monday
-Object Oriented Programming 		BCS-2M		CS-10		13:00-14:20		Monday
-Object Oriented Programming 		BCS-4E		CS-10		14:30-15:50		Monday
-Principles of Leadership 		BCS-4A		CS-10		16:00-17:20		Monday
-Digital Logic Design 		BCS-2J		CS-11		08:30-09:50		Monday
-Applied Physics 		BCS-2P		CS-11		10:00-11:20		Monday
-Object Oriented Programming 		BCS-2D		CS-11		11:30-12:50		Monday
-Object Oriented Programming 		BCS-2C		CS-11		13:00-14:20		Monday
-Digital Logic Design 		BCS-2L		CS-11		14:30-15:50		Monday
-Machine Learning for Data Science 		MDS-2A		CS-15		10:00-12:50		Monday
-Programming Fundamentals 		BSE-2D		CS-15		13:00-14:20		Monday
-object oriented programming 		BSE-2B		CS-15		14:30-15:50		Monday
-Organizational Behaviour 		BCS-6A		CS-15		16:00-17:20		Monday
-Intro to Cloud Computing 		BCS-8A		CS-16		08:30-09:50		Monday
-Data Structures 		BCS-4F		CS-16		10:00-11:20		Monday
-Advanced CA 		MCS-2A		CS-16		11:30-12:50		Monday
-Business Process Engineering 		BSE-4B		CS-16		13:00-14:20		Monday
-Business Process Engineering 		BSE-4A		CS-16		14:30-15:50		Monday
-Pakistan Sudies 		BSE-2B		CS-16		16:00-17:20		Monday
-Natural Language Processing 		MCS-2A		E&M-1		08:30-09:50		Monday
-object oriented programming 		BSE-2C		E&M-1		10:00-11:20		Monday
-Marketing Management 		BCS-4A		E&M-1		11:30-12:50		Monday
-Research Methodology 		MCS-2A		E&M-1		13:00-15:50		Monday
-Artificial Intelligence 		BCS-6H		E&M-2		08:30-09:50		Monday
-Artificial Intelligence 		BCS-6G		E&M-2		10:00-11:20		Monday
-Probability & Statistics 		BCS-4A		E&M-2		11:30-12:50		Monday
-Probability & Statistics 		BCS-4B		E&M-2		13:00-14:20		Monday
-Differential Equations 		BDS-2A		E&M-2		16:00-17:20		Monday
-Islamic Studies/Ethics 		BCS-2M		E&M-3		08:30-09:50		Monday
-Data Structures 		BCS-4G		E&M-3		10:00-11:20		Monday
-Compiler Construction 		BCS-8A		E&M-3		11:30-12:50		Monday
-Probability & Statistics 		BCS-4E		E&M-3		13:00-14:20		Monday
-Probability & Statistics 		BCS-4D		E&M-3		14:30-15:50		Monday
-Linear Algebra 		BCS-4E		E&M-3		16:00-17:20		Monday
-Intro to Software Engineering 		BSE-2A		E&M-4		08:30-09:50		Monday
-Operating Systems 		BCS-6A		E&M-4		10:00-11:20		Monday
-Artificial Intelligence 		BCS-6F		E&M-4		11:30-12:50		Monday
-Natural Language Processing 		BCS-8A		E&M-4		13:00-14:20		Monday
-Pakistan Studies 		BCS-2E		E&M-4		14:30-15:50		Monday
-Pakistan Studies 		BCS-2D		E&M-4		16:00-17:20		Monday
-Islamic Studies/Ethics 		BDS-2D		E&M-5		08:30-09:50		Monday
-Islamic Studies/Ethics 		BCS-2N		E&M-5		10:00-11:20		Monday
-Probability & Statistics 		BCS-4F		E&M-5		11:30-12:50		Monday
-Design & Analysis of Algo 		BCS-6A		E&M-5		13:00-14:20		Monday
-Compiler Construction 		BCS-6A		E&M-5		14:30-15:50		Monday
-Finance and Accounting 		BCS-4A		E&M-11		08:30-09:50		Monday
-Differential Equations 		BCS-2H		E&M-11		11:30-12:50		Monday
-Theory of Automata 		BCS-6A		E&M-11		13:00-14:20		Monday
-Theory of Automata 		BCS-6B		E&M-11		14:30-15:50		Monday
-Islamic Studies/Ethics 		BCS-2H		CE-1		08:30-09:50		Monday
-Digital Logic Design 		BCS-2A		CE-1		10:00-11:20		Monday
-Differential Equations 		BCS-2J		CE-1		11:30-12:50		Monday
-Digital Logic Design 		BCS-2B		CE-1		13:00-14:20		Monday
-Digital Logic Design 		BCS-2N		CE-1		14:30-15:50		Monday
-Differential Equations 		BCS-2E		CE-1		16:00-17:20		Monday
-Pakistan Studies 		BCS-2C		CE-2		11:30-12:50		Monday
-Parallel & Dist Computing 		BCS-6D		CE-2		13:00-14:20		Monday
-Differential Equations 		BDS-2B		CE-2		14:30-15:50		Monday
-Differential Equations 		BDS-2C		CE-2		16:00-17:20		Monday
-Mass Communication 		BCS-8A		CE-3		10:00-11:20		Monday
-Computer Architecture 		BCS-8A		CE-3		11:30-12:50		Monday
-Differential Equations 		BCS-2B		CS-1		10:00-11:20		Monday
-Communication & Presentation Skills 		BSE-2C2		CS-1		11:30-13:20		Monday
-Parallel & Dist Computing 		BCS-6E		CS-8		08:30-09:50		Monday
-Software Engineering 		BCS-6A		CS-8		10:00-11:20		Monday
-Communication & Presentation Skills 		BSE-2C1		CS-8		11:30-13:20		Monday
-Communication & Presentation Skills 		BCS-2B		CS-8		14:30-16:20		Monday
-Communication & Presentation Skills 		BCS-2A		E&M-16		11:30-13:20		Monday
-Pakistan Studies 		BSE-2A		E&M-16		14:30-15:50		Monday
-Islamic Studies/Ethics 		BDS-2B		E&M-16		16:00-17:20		Monday
-Com & Pres Skills Lab 		BCS-2B1		English Lab-1		08:30-09:50		Monday
-Com & Pres Skills Lab 		BCS-2H1		English Lab-1		10:00-11:20		Monday
-Com & Pres Skills Lab 		BCS-2N1		English Lab-1		11:30-12:50		Monday
-Com & Pres Skills Lab 		BCS-2D1		English Lab-1		14:30-15:50		Monday
-Com & Pres Skills Lab 		BCS-2M1		English Lab-1		16:00-17:20		Monday
-Com & Pres Skills Lab 		BCS-2B2		English Lab-2		08:30-09:50		Monday
-Com & Pres Skills Lab 		BCS-2H2		English Lab-2		10:00-11:20		Monday
-Com & Pres Skills Lab 		BCS-2N2		English Lab-2		11:30-12:50		Monday
-Com & Pres Skills Lab 		BCS-2D2		English Lab-2		14:30-15:50		Monday
-Com & Pres Skills Lab 		BCS-2M2		English Lab-2		16:00-17:20		Monday
-Com & Pres Skills Lab 		BCS-2G1		English Lab-3		10:00-11:20		Monday
-Com & Pres Skills Lab 		BCS-2E1		English Lab-3		11:30-12:50		Monday
-Com & Pres Skills Lab 		BCS-2C1		English Lab-3		14:30-15:50		Monday
-Com & Pres Skills Lab 		BCS-2G2		English Lab-4		10:00-11:20		Monday
-Com & Pres Skills Lab 		BCS-2E2		English Lab-4		11:30-12:50		Monday
-Com & Pres Skills Lab 		BCS-2C2		English Lab-4		14:30-15:50		Monday
-Operating Systems Lab 		BCS-4C		Lab(CS-1)		08:30-11:20		Monday
-Data Structures Lab 		BCS-4G		Lab(CS-1)		13:00-15:50		Monday
-Artificial Intelligence Lab 		BCS-6G		Lab(CS-1)		16:00-18:50		Monday
-Object Oriented Programming lab 		BCS-2D		Lab(CS-2A)		08:30-11:20		Monday
-Object Oriented Programming lab 		BCS-2G		Lab(CS-2A)		14:30-17:20		Monday
-Artificial Intelligence Lab 		BCS-6D		Lab(CS-2B)		08:30-11:20		Monday
-Operating Systems Lab 		BCS-6A		Lab(CS-2B)		16:00-18:50		Monday
-Digital Logic Design Lab 		BCS-2K1		Physics Lab		08:30-11:20		Monday
-Digital Logic Design Lab 		BDS-2B1		Physics Lab		11:30-14:20		Monday
-Digital Logic Design Lab 		BCS-2H1		Physics Lab		14:30-17:20		Monday
-Digital Logic Design Lab 		BCS-2K2		Micro Lab		08:30-11:20		Monday
-Digital Logic Design Lab 		BDS-2B2		Micro Lab		11:30-14:20		Monday
-Digital Logic Design Lab 		BCS-2H2		Micro Lab		14:30-17:20		Monday
-Linear Algebra 		BDS-4A		Seminar Hall		08:30-09:50		Tuesday
-F. of Big Data Analytics 		BDS-4A		Seminar Hall		11:30-12:50		Tuesday
-Advanced Statistics  		BDS-4A		Seminar Hall		13:00-14:20		Tuesday
-Computer Networks 		BCS-6C		CS-2		08:30-09:50		Tuesday
-Object Oriented Programming 		BCS-2L		CS-2		10:00-11:20		Tuesday
-Discrete Structures 		BSE-2A		CS-2		11:30-12:50		Tuesday
-Bio-informatics 		BCS-6A		CS-2		13:00-14:20		Tuesday
-object oriented programming 		BSE-2A		CS-2		14:30-15:50		Tuesday
-Parallel & Dist Computing 		BCS-6A		CS-3		10:00-11:20		Tuesday
-Advance Database Concepts 		BCS-6A		CS-3		11:30-12:50		Tuesday
-Parallel & Dist Computing 		BCS-6B		CS-3		13:00-14:20		Tuesday
-Web Programming 		BCS-6A		CS-3		14:30-15:50		Tuesday
-Calc & Analytical Geometry 		BCS-2P		CS-3		17:30-18:50		Tuesday
-Comp. Org. & Assembly Lang. 		BCS-4E		CS-4		08:30-09:50		Tuesday
-Software Engineering 		BCS-6B		CS-4		10:00-11:20		Tuesday
-Object Oriented Programming 		BCS-2E		CS-4		11:30-12:50		Tuesday
-Object Oriented Programming 		BCS-2F		CS-4		13:00-14:20		Tuesday
-Software Design & Analysis 		BCS-6A		CS-4		14:30-15:50		Tuesday
-Programming Fundamentals 		BCS-2P		CS-4		16:00-17:20		Tuesday
-Programming Fundamentals 		BCS-2Q		CS-4		17:30-18:50		Tuesday
-Data Structures 		BDS-4C		CS-5		08:30-09:50		Tuesday
-Artificial Intelligence 		BCS-6D		CS-5		10:00-11:20		Tuesday
-Artificial Intelligence 		BCS-6B		CS-5		11:30-12:50		Tuesday
-Software Engineering 		BCS-6E		CS-5		13:00-14:20		Tuesday
-Computer Networks 		BCS-6B		CS-5		14:30-15:50		Tuesday
-Computer Networks 		BCS-6A		CS-5		16:00-17:20		Tuesday
-Big Data Analytics 		MDS-2A		CS-6		10:00-12:50		Tuesday
-Principles of Leadership 		BCS-6A		CS-6		16:00-17:20		Tuesday
-Advanced Programming 		BCS-6A		CS-7		08:30-09:50		Tuesday
-Advanced Programming 		BCS-8A		CS-7		10:00-11:20		Tuesday
-Graph Algorithms 		MCS-2A		CS-7		11:30-14:20		Tuesday
-Internet of Things 		BCS-8A		CS-7		14:30-15:50		Tuesday
-Internet of Things 		BCS-8B		CS-7		16:00-17:20		Tuesday
-Object Oriented Programming 		BCS-2B		CS-9		10:00-11:20		Tuesday
-Object Oriented Programming 		BCS-2A		CS-9		11:30-12:50		Tuesday
-Advanced Operating Systems 		MCS-2A		CS-9		14:30-17:20		Tuesday
-Entreprenuership 		BCS-6A		CS-10		10:00-11:20		Tuesday
-Operating Systems 		BCS-4D		CS-10		11:30-12:50		Tuesday
-Digital Logic Design 		BCS-2H		CS-10		16:00-17:20		Tuesday
-Artificial Intelligence 		BCS-6J		CS-11		08:30-09:50		Tuesday
-Design & Analysis of Algo 		BCS-4A		CS-11		10:00-11:20		Tuesday
-Operating Systems 		BCS-4C		CS-11		11:30-12:50		Tuesday
-Operating Systems 		BCS-4A		CS-11		13:00-14:20		Tuesday
-Object Oriented Programming 		BCS-2N		CS-11		14:30-15:50		Tuesday
-Operating Systems 		BCS-4B		CS-11		16:00-17:20		Tuesday
-object oriented programming 		BDS-2D		CS-15		10:00-11:20		Tuesday
-Software for Mobile Devices 		BCS-8A		CS-15		11:30-12:50		Tuesday
-Design & Analysis of Algo 		BCS-4B		CS-15		13:00-14:20		Tuesday
-Islamic Studies/Ethics 		BDS-2C		CS-16		08:30-09:50		Tuesday
-Software Engineering 		BCS-6C		CS-16		10:00-11:20		Tuesday
-Software Engineering 		BCS-6D		CS-16		11:30-12:50		Tuesday
-Environmental Studies 		BCS-4A		CS-16		13:00-14:20		Tuesday
-Entrepreneurship 		BCS-8A		CS-16		16:00-17:20		Tuesday
-Intro to Soft. Proj. Management 		BCS-8A		E&M-1		08:30-09:50		Tuesday
-Mass Communication 		BCS-6A		E&M-1		11:20-12:40		Tuesday
-Pakistan Studies 		BCS-2B		E&M-1		12:50-14:10		Tuesday
-Research Methodology 		MSP-2A		E&M-1		17:20-20:10		Tuesday
-Differential Equations 		BCS-2F		E&M-2		11:30-12:50		Tuesday
-Pakistan Studies 		BCS-2G		E&M-2		14:30-15:50		Tuesday
-Software Engineering 		BCS-6F		E&M-3		08:30-09:50		Tuesday
-Data Science 		BCS-8B		E&M-3		11:30-12:50		Tuesday
-Data Science 		BCS-8A		E&M-3		13:00-14:20		Tuesday
-Differential Equations 		BCS-2A		E&M-3		14:30-15:50		Tuesday
-Artificial Intelligence 		BCS-6C		E&M-4		13:00-14:20		Tuesday
-Marketing Management 		BCS-6A		E&M-4		14:30-15:50		Tuesday
-Islamic Studies/Ethics 		BDS-2A		E&M-4		16:00-17:20		Tuesday
-Probability & Statistics 		BSE-4A		E&M-5		08:30-09:50		Tuesday
-Differential Equations 		BCS-2C		E&M-5		10:00-11:20		Tuesday
-Comp. Org. & Assembly Lang. 		BCS-4F		E&M-5		11:30-12:50		Tuesday
-Psychology 		BCS-4A		E&M-11		10:00-11:20		Tuesday
-Differential Equations 		BCS-2M		E&M-11		11:30-12:50		Tuesday
-Psychology 		BCS-6A		E&M-11		13:00-14:20		Tuesday
-Pakistan Studies 		BSE-2C		E&M-11		16:00-17:20		Tuesday
-Mass Communication 		BCS-4A		CE-1		08:30-09:50		Tuesday
-Probability & Statistics 		BCS-4C		CE-1		10:00-11:20		Tuesday
-object oriented programming 		BDS-2B		CE-1		11:30-12:50		Tuesday
-Entreprenuership 		BCS-4A		CE-1		13:00-14:20		Tuesday
-Digital Logic Design 		BDS-2A		CE-1		14:30-15:50		Tuesday
-Digital Logic Design 		BDS-2B		CE-1		16:00-17:20		Tuesday
-Islamic Studies/Ethics 		BCS-2K		CE-2		08:30-09:50		Tuesday
-Intro to Software Engineering 		BSE-2B		CE-2		10:00-11:20		Tuesday
-Artificial Intelligence 		BCS-6E		CE-2		11:30-12:50		Tuesday
-Intro to Software Engineering 		BSE-2C		CE-2		14:30-15:50		Tuesday
-Differential Equations 		BCS-2N		CE-2		16:00-17:20		Tuesday
-Object Oriented Programming 		BCS-2G		CE-3		08:30-09:50		Tuesday
-Object Oriented Programming 		BCS-2H		CE-3		11:30-12:50		Tuesday
-Islamic Studies/Ethics 		BCS-2J		CS-1		08:30-09:50		Tuesday
-Differential Equations 		BCS-2G		CS-1		10:00-11:20		Tuesday
-Communication & Presentation Skills 		BCS-2C		CS-1		11:30-13:20		Tuesday
-Pakistan Studies 		BCS-2F		CS-1		14:30-15:50		Tuesday
-Pakistan Studies 		BCS-2A		CS-1		16:00-17:20		Tuesday
-Advanced Analysis of Algorithms 		MCS-2A		CS-8		08:30-11:20		Tuesday
-Communication & Presentation Skills 		BDS-2D1		CS-8		11:30-13:20		Tuesday
-Communication & Presentation Skills 		BDS-2C1		CS-8		14:30-16:20		Tuesday
-Differential Equations 		BCS-2K		E&M-16		10:00-11:20		Tuesday
-Communication & Presentation Skills 		BDS-2D2		E&M-16		11:30-13:20		Tuesday
-Communication & Presentation Skills 		BDS-2C2		E&M-16		14:30-16:20		Tuesday
-Com & Pres Skills Lab 		BSE-2B1		English Lab-1		08:30-09:50		Tuesday
-Com & Pres Skills Lab 		BDS-2A1		English Lab-1		10:00-11:20		Tuesday
-Com & Pres Skills Lab 		BSE-2C1		English Lab-1		11:30-12:50		Tuesday
-Com & Pres Skills Lab 		BSE-2A1		English Lab-1		13:00-14:20		Tuesday
-Com & Pres Skills Lab 		BCS-2K1		English Lab-1		14:30-15:50		Tuesday
-Com & Pres Skills Lab 		BSE-2B2		English Lab-2		08:30-09:50		Tuesday
-Com & Pres Skills Lab 		BDS-2A2		English Lab-2		10:00-11:20		Tuesday
-Com & Pres Skills Lab 		BSE-2C2		English Lab-2		11:30-12:50		Tuesday
-Com & Pres Skills Lab 		BSE-2A2		English Lab-2		13:00-14:20		Tuesday
-Com & Pres Skills Lab 		BCS-2K2		English Lab-2		14:30-15:50		Tuesday
-Com & Pres Skills Lab 		BCS-2L1		English Lab-3		08:30-09:50		Tuesday
-Com & Pres Skills Lab 		BCS-2J1		English Lab-3		11:30-12:50		Tuesday
-Com & Pres Skills Lab 		BCS-2L2		English Lab-4		08:30-09:50		Tuesday
-Com & Pres Skills Lab 		BCS-2J2		English Lab-4		11:30-12:50		Tuesday
-Object Oriented Programming lab 		BCS-2E		Lab(CS-1)		08:30-11:20		Tuesday
-Artificial Intelligence Lab 		BCS-6F		Lab(CS-1)		16:00-18:50		Tuesday
-Operating Systems Lab 		BCS-4D		Lab(CS-2A)		08:30-11:20		Tuesday
-Object Oriented Programming lab 		BCS-2C		Lab(CS-2A)		14:30-17:20		Tuesday
-Object Oriented Programming lab 		BSE-2B		Lab(CS-2B)		11:30-14:20		Tuesday
-Data Structures Lab 		BSE-4C		Lab(CS-4)		11:30-14:20		Tuesday
-Digital Logic Design Lab 		BCS-2M1		Physics Lab		08:30-11:20		Tuesday
-Digital Logic Design Lab 		BCS-2L1		Physics Lab		11:30-14:20		Tuesday
-Digital Logic Design Lab 		BCS-2B1		Physics Lab		14:30-17:20		Tuesday
-Digital Logic Design Lab 		BCS-2M2		Micro Lab		08:30-11:20		Tuesday
-Digital Logic Design Lab 		BCS-2B2		Micro Lab		14:30-17:20		Tuesday
-Digital Logic Design Lab 		BCS-2L2		Embedded Lab		11:30-14:20		Tuesday
-Database Systems 		BDS-4A		Seminar Hall		08:30-09:50		Wednesday
-Funda. of Software Eng 		BDS-4A		Seminar Hall		10:00-11:20		Wednesday
-Database Systems 		BCS-6A		Seminar Hall		11:30-12:50		Wednesday
-Digital Image Processing 		BCS-6A		CS-2		08:30-09:50		Wednesday
-Parallel & Dist Computing 		BCS-6F		CS-2		10:00-11:20		Wednesday
-Digital Image Processing 		BCS-6B		CS-2		11:30-12:50		Wednesday
-Software Testing 		BCS-8B		CS-2		16:00-17:20		Wednesday
-Requirement Engineering 		MSP-2A		CS-2		17:30-20:20		Wednesday
-Digital Logic Design 		BCS-2C		CS-3		08:30-09:50		Wednesday
-Database Systems 		BCS-4A		CS-3		10:00-11:20		Wednesday
-Database Systems 		BCS-4B		CS-3		11:30-12:50		Wednesday
-Database Systems 		BCS-4C		CS-3		14:30-15:50		Wednesday
-International Relations 		BCS-8A		CS-3		16:00-17:20		Wednesday
-Design & Analysis of Algo 		BCS-4D		CS-4		08:30-09:50		Wednesday
-Database Systems 		BCS-4D		CS-4		10:00-11:20		Wednesday
-Design & Analysis of Algo 		BCS-4C		CS-4		11:30-12:50		Wednesday
-Object Oriented Programming 		BDS-2C		CS-4		13:00-14:20		Wednesday
-Sociology 		BCS-6A		CS-4		14:30-15:50		Wednesday
-Professional Practices in IT 		BCS-8A		CS-4		16:00-17:20		Wednesday
-Software Design and Architecture 		BSE-4B		CS-5		08:30-09:50		Wednesday
-Software Design and Architecture 		BSE-4A		CS-5		10:00-11:20		Wednesday
-Database Systems 		BSE-4A		CS-5		11:30-12:50		Wednesday
-Theory of Automata 		BCS-6C		CS-5		13:00-14:20		Wednesday
-Theory of Automata 		BCS-6D		CS-5		14:30-15:50		Wednesday
-Modern Politics & Gov 		BCS-6A		CS-5		16:00-17:20		Wednesday
-Digital Logic Design 		BCS-2K		CS-6		11:30-12:50		Wednesday
-Data Structures 		BCS-4E		CS-6		14:30-15:50		Wednesday
-Parallel & Dist Computing 		BCS-6C		CS-7		08:30-09:50		Wednesday
-Blockchain and Cryptocurrency 		BCS-8A		CS-7		10:00-11:20		Wednesday
-Differential Equations 		BDS-2D		CS-7		11:30-12:50		Wednesday
-Parallel & Dist Computing 		BCS-8A		CS-7		13:00-14:20		Wednesday
-Object Oriented Programming 		BCS-2K		CS-7		14:30-15:50		Wednesday
-Object Oriented Programming 		BCS-2J		CS-9		10:00-11:20		Wednesday
-Modern Politics & Gov 		BCS-8A		CS-9		11:30-12:50		Wednesday
-Object Oriented Programming 		BCS-2E		CS-9		13:00-14:20		Wednesday
-Object Oriented Analysis & Design 		BCS-8A		CS-10		08:30-09:50		Wednesday
-Object Oriented Programming 		BCS-2F		CS-10		10:00-11:20		Wednesday
-Artificial Intelligence 		BCS-6A		CS-10		11:30-12:50		Wednesday
-Object Oriented Programming 		BCS-2M		CS-10		13:00-14:20		Wednesday
-Object Oriented Programming 		BCS-4E		CS-10		14:30-15:50		Wednesday
-Principles of Leadership 		BCS-4A		CS-10		16:00-17:20		Wednesday
-Digital Logic Design 		BCS-2J		CS-11		08:30-09:50		Wednesday
-Applied Physics 		BCS-2P		CS-11		10:00-11:20		Wednesday
-Object Oriented Programming 		BCS-2D		CS-11		11:30-12:50		Wednesday
-Object Oriented Programming 		BCS-2C		CS-11		13:00-14:20		Wednesday
-Digital Logic Design 		BCS-2L		CS-11		14:30-15:50		Wednesday
-Internet of Things 		MCS-2A		CS-15		08:30-11:20		Wednesday
-Artificial Intelligence 		BCS-6F		CS-15		11:30-12:50		Wednesday
-Programming Fundamentals 		BSE-2D		CS-15		13:00-14:20		Wednesday
-object oriented programming 		BSE-2B		CS-15		14:30-15:50		Wednesday
-Organizational Behaviour 		BCS-6A		CS-15		16:00-17:20		Wednesday
-Intro to Cloud Computing 		BCS-8A		CS-16		08:30-09:50		Wednesday
-Data Structures 		BCS-4F		CS-16		10:00-11:20		Wednesday
-Marketing Management 		BCS-4A		CS-16		11:30-12:50		Wednesday
-Business Process Engineering 		BSE-4B		CS-16		13:00-14:20		Wednesday
-Business Process Engineering 		BSE-4A		CS-16		14:30-15:50		Wednesday
-Pakistan Studies 		BSE-2B		CS-16		16:00-17:20		Wednesday
-Research Methodology 		MDS-2A		E&M-1		10:00-12:50		Wednesday
-Communication & Presentation Skills 		BDS-2A1		E&M-1		14:30-16:20		Wednesday
-Artificial Intelligence 		BCS-6H		E&M-2		08:30-09:50		Wednesday
-Artificial Intelligence 		BCS-6G		E&M-2		10:00-11:20		Wednesday
-Probability & Statistics 		BCS-4A		E&M-2		11:30-12:50		Wednesday
-Probability & Statistics 		BCS-4B		E&M-2		13:00-14:20		Wednesday
-Communication & Presentation Skills 		BDS-2A2		E&M-2		14:30-16:20		Wednesday
-Islamic Studies/Ethics 		BCS-2M		E&M-3		08:30-09:50		Wednesday
-Data Structures 		BCS-4G		E&M-3		10:00-11:20		Wednesday
-Compiler Construction 		BCS-8A		E&M-3		11:30-12:50		Wednesday
-Probability & Statistics 		BCS-4E		E&M-3		13:00-14:20		Wednesday
-Probability & Statistics 		BCS-4D		E&M-3		14:30-15:50		Wednesday
-Linear Algebra 		BCS-4E		E&M-3		16:00-17:20		Wednesday
-Operating Systems 		BCS-6A		E&M-4		10:00-11:20		Wednesday
-Advanced CA 		MCS-2A		E&M-4		11:30-12:50		Wednesday
-Natural Language Processing 		BCS-8A		E&M-4		13:00-14:20		Wednesday
-Pakistan Studies 		BCS-2E		E&M-4		14:30-15:50		Wednesday
-Pakistan Studies 		BCS-2D		E&M-4		16:00-17:20		Wednesday
-Islamic Studies/Ethics 		BDS-2D		E&M-5		08:30-09:50		Wednesday
-Probability & Statistics 		BCS-4F		E&M-5		11:30-12:50		Wednesday
-Design & Analysis of Algo 		BCS-6A		E&M-5		13:00-14:20		Wednesday
-Compiler Construction 		BCS-6A		E&M-5		14:30-15:50		Wednesday
-Finance and Accounting 		BCS-4A		E&M-11		08:30-09:50		Wednesday
-Psychology 		BCS-8A		E&M-11		10:00-11:20		Wednesday
-Differential Equations 		BCS-2H		E&M-11		11:30-12:50		Wednesday
-Theory of Automata 		BCS-6A		E&M-11		13:00-14:20		Wednesday
-Theory of Automata 		BCS-6B		E&M-11		14:30-15:50		Wednesday
-Islamic Studies/Ethics 		BCS-2H		CE-1		08:30-09:50		Wednesday
-Digital Logic Design 		BCS-2A		CE-1		10:00-11:20		Wednesday
-Differential Equations 		BCS-2J		CE-1		11:30-12:50		Wednesday
-Digital Logic Design 		BCS-2B		CE-1		13:00-14:20		Wednesday
-Digital Logic Design 		BCS-2N		CE-1		14:30-15:50		Wednesday
-Differential Equations 		BCS-2E		CE-1		16:00-17:20		Wednesday
-Pakistan Studies 		BCS-2C		CE-2		11:30-12:50		Wednesday
-Parallel & Dist Computing 		BCS-6D		CE-2		13:00-14:20		Wednesday
-Differential Equations 		BDS-2B		CE-2		14:30-15:50		Wednesday
-Differential Equations 		BDS-2C		CE-2		16:00-17:20		Wednesday
-Mass Communication 		BCS-8A		CE-3		10:00-11:20		Wednesday
-Computer Architecture 		BCS-8A		CE-3		11:30-12:50		Wednesday
-Differential Equations 		BCS-2B		CS-1		10:00-11:20		Wednesday
-Communication & Presentation Skills 		BCS-2F		CS-1		11:30-13:20		Wednesday
-Communication & Presentation Skills 		BCS-2H		CS-1		14:30-16:20		Wednesday
-Parallel & Dist Computing 		BCS-6E		CS-8		08:30-09:50		Wednesday
-Software Engineering 		BCS-6A		CS-8		10:00-11:20		Wednesday
-Communication & Presentation Skills 		BCS-2G		CS-8		11:30-13:20		Wednesday
-Communication & Presentation Skills 		BCS-2J		CS-8		14:30-16:20		Wednesday
-Data Structures 		BSE-4C		E&M-16		11:30-12:50		Wednesday
-Pakistan Studies 		BSE-2A		E&M-16		14:30-15:50		Wednesday
-Islamic Studies/Ethics 		BDS-2B		E&M-16		16:00-17:20		Wednesday
-Com & Pres Skills Lab 		BCS-2B1		English Lab-1		08:30-09:50		Wednesday
-Com & Pres Skills Lab 		BCS-2H1		English Lab-1		10:00-11:20		Wednesday
-Com & Pres Skills Lab 		BCS-2N1		English Lab-1		11:30-12:50		Wednesday
-Com & Pres Skills Lab 		BCS-2D1		English Lab-1		14:30-15:50		Wednesday
-Com & Pres Skills Lab 		BCS-2M1		English Lab-1		16:00-17:20		Wednesday
-Com & Pres Skills Lab 		BCS-2B2		English Lab-2		08:30-09:50		Wednesday
-Com & Pres Skills Lab 		BCS-2H2		English Lab-2		10:00-11:20		Wednesday
-Com & Pres Skills Lab 		BCS-2N2		English Lab-2		11:30-12:50		Wednesday
-Com & Pres Skills Lab 		BCS-2D2		English Lab-2		14:30-15:50		Wednesday
-Com & Pres Skills Lab 		BCS-2M2		English Lab-2		16:00-17:20		Wednesday
-Com & Pres Skills Lab 		BCS-2E1		English Lab-3		11:30-12:50		Wednesday
-Com & Pres Skills Lab 		BCS-2C1		English Lab-3		14:30-15:50		Wednesday
-Com & Pres Skills Lab 		BCS-2A1		English Lab-3		16:00-17:20		Wednesday
-Com & Pres Skills Lab 		BCS-2E2		English Lab-4		11:30-12:50		Wednesday
-Com & Pres Skills Lab 		BCS-2C2		English Lab-4		14:30-15:50		Wednesday
-Com & Pres Skills Lab 		BCS-2A2		English Lab-4		16:00-17:20		Wednesday
-Object Oriented Programming lab 		BCS-2K		Lab(CS-1)		08:30-11:20		Wednesday
-Object Oriented Programming lab 		BCS-2F		Lab(CS-1)		14:30-17:20		Wednesday
-Object Oriented Programming lab 		BCS-2L		Lab(CS-2A)		08:30-11:20		Wednesday
-Database Systems Lab 		BDS-4A		Lab(CS-2A)		14:30-17:20		Wednesday
-Computer Networks Lab 		BCS-6A		Lab(CS-2B)		16:00-18:50		Wednesday
-Object Oriented Programming lab 		BSE-2A		Lab(CS-4)		11:30-14:20		Wednesday
-Software Design and Architecture Lab 		BSE-4B		Lab(CS-4)		14:30-17:20		Wednesday
-Programming Fundamentals Lab 		BSE-2D		Lab(CS-6)		10:00-12:50		Wednesday
-Programming Fundamentals Lab 		BDS-2E		Lab(CS-9)		08:30-11:20		Wednesday
-Digital Logic Design Lab 		BCS-2N1		Physics Lab		08:30-11:20		Wednesday
-Digital Logic Design Lab 		BCS-2A1		Physics Lab		11:30-14:20		Wednesday
-Digital Logic Design Lab 		BCS-2G1		Physics Lab		14:30-17:20		Wednesday
-Digital Logic Design Lab 		BCS-2N2		Micro Lab		08:30-11:20		Wednesday
-Digital Logic Design Lab 		BCS-2A2		Micro Lab		11:30-14:20		Wednesday
-Digital Logic Design Lab 		BCS-2G2		Micro Lab		14:30-17:20		Wednesday
-Linear Algebra 		BDS-4A		Seminar Hall		08:30-09:50		Thursday
-F. of Big Data Analytics 		BDS-4A		Seminar Hall		11:30-12:50		Thursday
-Advanced Statistics  		BDS-4A		Seminar Hall		13:00-14:20		Thursday
-Computer Networks 		BCS-6C		CS-2		08:30-09:50		Thursday
-Entreprenuership 		BCS-6A		CS-2		10:00-11:20		Thursday
-Discrete Structures 		BSE-2A		CS-2		11:30-12:50		Thursday
-Bio-informatics 		BCS-6A		CS-2		13:00-14:20		Thursday
-object oriented programming 		BSE-2A		CS-2		14:30-15:50		Thursday
-Advanced Software Engineering 		MSP-2A		CS-2		17:30-20:20		Thursday
-Parallel & Dist Computing 		BCS-6A		CS-3		10:00-11:20		Thursday
-Advance Database Concepts 		BCS-6A		CS-3		11:30-12:50		Thursday
-Parallel & Dist Computing 		BCS-6B		CS-3		13:00-14:20		Thursday
-Web Programming 		BCS-6A		CS-3		14:30-15:50		Thursday
-Calc & Analytical Geometry 		BCS-2P		CS-3		17:30-18:50		Thursday
-Software Engineering 		BCS-6B		CS-4		10:00-11:20		Thursday
-Software Design & Analysis 		BCS-6A		CS-4		14:30-15:50		Thursday
-Programming Fundamentals 		BCS-2P		CS-4		16:00-17:20		Thursday
-Programming Fundamentals 		BCS-2Q		CS-4		17:30-18:50		Thursday
-Data Structures 		BDS-4C		CS-5		08:30-09:50		Thursday
-Artificial Intelligence 		BCS-6D		CS-5		10:00-11:20		Thursday
-Artificial Intelligence 		BCS-6B		CS-5		11:30-12:50		Thursday
-Software Engineering 		BCS-6E		CS-5		13:00-14:20		Thursday
-Computer Networks 		BCS-6B		CS-5		14:30-15:50		Thursday
-Computer Networks 		BCS-6A		CS-5		16:00-17:20		Thursday
-Computational Intelligence 		MCS-2A		CS-6		08:30-11:20		Thursday
-Principles of Leadership 		BCS-6A		CS-6		16:00-17:20		Thursday
-Deep Learning 		MDS-2A		CS-7		08:30-11:20		Thursday
-Internet of Things 		BCS-8A		CS-7		14:30-15:50		Thursday
-Internet of Things 		BCS-8B		CS-7		16:00-17:20		Thursday
-Object Oriented Programming 		BCS-2B		CS-9		10:00-11:20		Thursday
-Object Oriented Programming 		BCS-2A		CS-9		11:30-12:50		Thursday
-Digital Logic Design 		BCS-2M		CS-10		08:30-09:50		Thursday
-Differential Equations 		BCS-2L		CS-10		10:00-11:20		Thursday
-Operating Systems 		BCS-4D		CS-10		11:30-12:50		Thursday
-Human Computer Interaction 		BCS-8A		CS-10		13:00-14:20		Thursday
-Digital Logic Design 		BCS-2H		CS-10		16:00-17:20		Thursday
-Artificial Intelligence 		BCS-6J		CS-11		08:30-09:50		Thursday
-Design & Analysis of Algo 		BCS-4A		CS-11		10:00-11:20		Thursday
-Operating Systems 		BCS-4C		CS-11		11:30-12:50		Thursday
-Operating Systems 		BCS-4A		CS-11		13:00-14:20		Thursday
-Object Oriented Programming 		BCS-2N		CS-11		14:30-15:50		Thursday
-Operating Systems 		BCS-4B		CS-11		16:00-17:20		Thursday
-Digital Logic Design 		BCS-2D		CS-15		08:30-09:50		Thursday
-object oriented programming 		BDS-2D		CS-15		10:00-11:20		Thursday
-Software for Mobile Devices 		BCS-8A		CS-15		11:30-12:50		Thursday
-Design & Analysis of Algo 		BCS-4B		CS-15		13:00-14:20		Thursday
-Islamic Studies/Ethics 		BDS-2C		CS-16		08:30-09:50		Thursday
-Software Engineering 		BCS-6C		CS-16		10:00-11:20		Thursday
-Software Engineering 		BCS-6D		CS-16		11:30-12:50		Thursday
-Environmental Studies 		BCS-4A		CS-16		13:00-14:20		Thursday
-Entrepreneurship 		BCS-8A		CS-16		16:00-17:20		Thursday
-Intro to Soft. Proj. Management 		BCS-8A		E&M-1		08:30-09:50		Thursday
-Mass Communication 		BCS-6A		E&M-1		11:20-12:40		Thursday
-Pakistan Studies 		BCS-2B		E&M-1		12:50-14:10		Thursday
-Communication & Presentation Skills 		BCS-2M		E&M-1		14:20-16:10		Thursday
-Differential Equations 		BCS-2F		E&M-2		11:30-12:50		Thursday
-Programming Fundamentals 		BDS-2E		E&M-2		13:00-14:20		Thursday
-Pakistan Studies 		BCS-2G		E&M-2		14:30-15:50		Thursday
-Data Science 		BCS-8B		E&M-3		11:30-12:50		Thursday
-Data Science 		BCS-8A		E&M-3		13:00-14:20		Thursday
-Differential Equations 		BCS-2A		E&M-3		14:30-15:50		Thursday
-Artificial Intelligence 		BCS-6C		E&M-4		13:00-14:20		Thursday
-Marketing Management 		BCS-6A		E&M-4		14:30-15:50		Thursday
-Islamic Studies/Ethics 		BDS-2A		E&M-4		16:00-17:20		Thursday
-Probability & Statistics 		BSE-4A		E&M-5		08:30-09:50		Thursday
-Differential Equations 		BCS-2C		E&M-5		10:00-11:20		Thursday
-Psychology 		BCS-4A		E&M-11		10:00-11:20		Thursday
-Differential Equations 		BCS-2M		E&M-11		11:30-12:50		Thursday
-Psychology 		BCS-6A		E&M-11		13:00-14:20		Thursday
-Pakistan Studies 		BSE-2C		E&M-11		16:00-17:20		Thursday
-Mass Communication 		BCS-4A		CE-1		08:30-09:50		Thursday
-Probability & Statistics 		BCS-4C		CE-1		10:00-11:20		Thursday
-object oriented programming 		BDS-2B		CE-1		11:30-12:50		Thursday
-Entreprenuership 		BCS-4A		CE-1		13:00-14:20		Thursday
-Digital Logic Design 		BDS-2A		CE-1		14:30-15:50		Thursday
-Digital Logic Design 		BDS-2B		CE-1		16:00-17:20		Thursday
-Islamic Studies/Ethics 		BCS-2K		CE-2		08:30-09:50		Thursday
-Intro to Software Engineering 		BSE-2B		CE-2		10:00-11:20		Thursday
-Artificial Intelligence 		BCS-6E		CE-2		11:30-12:50		Thursday
-Intro to Software Engineering 		BSE-2C		CE-2		14:30-15:50		Thursday
-Differential Equations 		BCS-2N		CE-2		16:00-17:20		Thursday
-Object Oriented Programming 		BCS-2G		CE-3		08:30-09:50		Thursday
-Islamic Studies/Ethics 		BCS-2N		CE-3		10:00-11:20		Thursday
-Object Oriented Programming 		BCS-2H		CE-3		11:30-12:50		Thursday
-Islamic Studies/Ethics 		BCS-2J		CS-1		08:30-09:50		Thursday
-Differential Equations 		BCS-2G		CS-1		10:00-11:20		Thursday
-Pakistan Studies 		BCS-2F		CS-1		14:30-15:50		Thursday
-Pakistan Studies 		BCS-2A		CS-1		16:00-17:20		Thursday
-Communication & Presentation Skills 		BDS-2B1		CS-8		08:30-10:20		Thursday
-Communication & Presentation Skills 		BCS-2L		CS-8		11:30-13:20		Thursday
-Communication & Presentation Skills 		BSE-2B1		CS-8		14:30-16:20		Thursday
-Communication & Presentation Skills 		BDS-2B2		E&M-16		08:30-10:20		Thursday
-Communication & Presentation Skills 		BCS-2K		E&M-16		11:30-13:20		Thursday
-Communication & Presentation Skills 		BSE-2B2		E&M-16		14:30-16:20		Thursday
-Com & Pres Skills Lab 		BSE-2B1		English Lab-1		08:30-09:50		Thursday
-Com & Pres Skills Lab 		BDS-2A1		English Lab-1		10:00-11:20		Thursday
-Com & Pres Skills Lab 		BSE-2C1		English Lab-1		11:30-12:50		Thursday
-Com & Pres Skills Lab 		BSE-2A1		English Lab-1		13:00-14:20		Thursday
-Com & Pres Skills Lab 		BCS-2K1		English Lab-1		14:30-15:50		Thursday
-Com & Pres Skills Lab 		BSE-2B2		English Lab-2		08:30-09:50		Thursday
-Com & Pres Skills Lab 		BDS-2A2		English Lab-2		10:00-11:20		Thursday
-Com & Pres Skills Lab 		BSE-2C2		English Lab-2		11:30-12:50		Thursday
-Com & Pres Skills Lab 		BSE-2A2		English Lab-2		13:00-14:20		Thursday
-Com & Pres Skills Lab 		BCS-2K2		English Lab-2		14:30-15:50		Thursday
-Com & Pres Skills Lab 		BCS-2L1		English Lab-3		08:30-09:50		Thursday
-Com & Pres Skills Lab 		BCS-2J1		English Lab-3		11:30-12:50		Thursday
-Com & Pres Skills Lab 		BCS-2L2		English Lab-4		08:30-09:50		Thursday
-Com & Pres Skills Lab 		BCS-2J2		English Lab-4		11:30-12:50		Thursday
-Object Oriented Programming lab 		BCS-2B		Lab(CS-1)		11:30-14:20		Thursday
-Object Oriented Programming lab 		BDS-2C		Lab(CS-1)		14:30-17:20		Thursday
-Database Systems Lab 		BCS-4D		Lab(CS-2B)		08:30-11:20		Thursday
-Object Oriented Programming lab 		BDS-2D		Lab(CS-2B)		11:30-14:20		Thursday
-Database Systems Lab 		BCS-4C		Lab(CS-2B)		14:30-17:20		Thursday
-Database Systems Lab 		BSE-4A		Lab(CS-4)		10:00-12:50		Thursday
-Software Design and Architecture Lab 		BSE-4A		Lab(CS-4)		13:00-15:50		Thursday
-Artificial Intelligence Lab 		BCS-6H		Lab(CS-9)		08:30-11:20		Thursday
-Digital Logic Design Lab 		BCS-2E1		Physics Lab		08:30-11:20		Thursday
-Digital Logic Design Lab 		BCS-2C1		Physics Lab		11:30-14:20		Thursday
-Digital Logic Design Lab 		BCS-2D1		Physics Lab		14:30-17:20		Thursday
-Digital Logic Design Lab 		BCS-2E2		Micro Lab		08:30-11:20		Thursday
-Digital Logic Design Lab 		BCS-2D2		Micro Lab		14:30-17:20		Thursday
-Digital Logic Design Lab 		BCS-2C2		Embedded Lab		11:30-14:20		Thursday
-Practicum - I/II 		MSP-2A		CS-2		08:30-11:20		Friday
-Object Oriented Programming 		BDS-2A		CS-2		14:30-15:50		Friday
-Management & Organizational Behaviour 		MSP-2A		CS-2		17:30-20:20		Friday
-Advanced Computer Vision 		MDS-4A		CS-3		08:30-11:20		Friday
-Software for Mobile Devices 		BCS-6A		CS-3		14:30-15:50		Friday
-Software for Mobile Devices 		BCS-6B		CS-3		16:00-17:20		Friday
-Comp. Org. & Assembly Lang. 		BCS-4E		CS-4		08:30-09:50		Friday
-Software Testing 		BCS-8A		CS-4		11:30-12:50		Friday
-Digital Logic Design 		BDS-2D		CS-4		14:30-15:50		Friday
-Digital Logic Design 		BDS-2C		CS-4		16:00-17:20		Friday
-Software Design and Architecture 		BSE-4B		CS-5		08:30-09:50		Friday
-Software Design and Architecture 		BSE-4A		CS-5		10:00-11:20		Friday
-Modern Politics & Gov 		BCS-6A		CS-5		14:30-15:50		Friday
-Modern Politics & Gov 		BCS-8A		CS-5		16:00-17:20		Friday
-Discrete Structures 		BSE-4A		CS-6		08:30-09:50		Friday
-Discrete Structures 		BSE-4B		CS-6		10:00-11:20		Friday
-Discrete Structures 		BSE-2C		CS-6		11:30-12:50		Friday
-Discrete Structures 		BSE-2B		CS-6		14:30-15:50		Friday
-Advanced Programming 		BCS-6A		CS-7		08:30-09:50		Friday
-Advanced Programming 		BCS-8A		CS-7		10:00-11:20		Friday
-Object Oriented Programming 		BCS-2K		CS-7		14:30-15:50		Friday
-Islamic Studies/Ethics 		BCS-2L		CS-9		08:30-09:50		Friday
-Digital Logic Design 		BCS-2E		CS-9		10:00-11:20		Friday
-Digital Logic Design 		BCS-2G		CS-9		11:30-12:50		Friday
-Communication & Presentation Skills 		BCS-2E		CS-9		14:30-16:20		Friday
-Digital Logic Design 		BCS-2M		CS-10		08:30-09:50		Friday
-Artificial Intelligence 		BCS-6A		CS-10		11:30-12:50		Friday
-Probability & Statistics 		BSE-4B		CS-10		14:30-15:50		Friday
-Information Retrieval 		BCS-8A		CS-11		08:30-09:50		Friday
-Information Retrieval 		BCS-8B		CS-11		11:30-12:50		Friday
-Digital Logic Design 		BCS-2F		CS-15		08:30-09:50		Friday
-Social Network Analysis 		MCS-2A		CS-15		10:00-12:50		Friday
-Differential Equations 		BCS-2D		CS-15		16:00-17:20		Friday
-Marketing Management 		BCS-8A		CS-16		08:30-09:50		Friday
-Natural Language Processing 		MCS-2A		E&M-1		08:30-09:50		Friday
-Differential Equations 		BCS-2K		E&M-1		10:00-11:20		Friday
-object oriented programming 		BSE-2C		E&M-1		14:30-15:50		Friday
-Programming Fundamentals 		BDS-2E		E&M-2		08:30-09:50		Friday
-Differential Equations 		BDS-2A		E&M-2		16:00-17:20		Friday
-Software Engineering 		BCS-6F		E&M-3		08:30-09:50		Friday
-Intro to Software Engineering 		BSE-2A		E&M-4		08:30-09:50		Friday
-Comp. Org. & Assembly Lang. 		BCS-4F		E&M-5		11:30-12:50		Friday
-Psychology 		BCS-8A		E&M-11		10:00-11:20		Friday
-Communication & Presentation Skills 		BSE-2A1		CE-2		10:00-11:50		Friday
-Communication & Presentation Skills 		BCS-2D		CS-1		08:30-10:20		Friday
-Communication & Presentation Skills 		BCS-2N		CS-1		14:30-16:20		Friday
-Data Structures 		BSE-4C		CS-8		11:30-12:50		Friday
-Communication & Presentation Skills 		BSE-2A2		E&M-16		10:00-11:50		Friday
-Com & Pres Skills Lab 		BDS-2B1		English Lab-1		10:00-11:20		Friday
-Com & Pres Skills Lab 		BDS-2C1		English Lab-1		11:30-12:50		Friday
-Com & Pres Skills Lab 		BCS-2G1		English Lab-1		14:30-15:50		Friday
-Com & Pres Skills Lab 		BDS-2D1		English Lab-1		16:00-17:20		Friday
-Com & Pres Skills Lab 		BDS-2B2		English Lab-2		10:00-11:20		Friday
-Com & Pres Skills Lab 		BDS-2C2		English Lab-2		11:30-12:50		Friday
-Com & Pres Skills Lab 		BCS-2G2		English Lab-2		14:30-15:50		Friday
-Com & Pres Skills Lab 		BDS-2D2		English Lab-2		16:00-17:20		Friday
-Com & Pres Skills Lab 		BCS-2F1		English Lab-3		10:00-11:20		Friday
-Com & Pres Skills Lab 		BCS-2A1		English Lab-3		16:00-17:20		Friday
-Com & Pres Skills Lab 		BCS-2F2		English Lab-4		10:00-11:20		Friday
-Com & Pres Skills Lab 		BCS-2A2		English Lab-4		16:00-17:20		Friday
-Artificial Intelligence Lab 		BCS-6J		Lab(CS-1)		10:00-12:50		Friday
-Operating Systems Lab 		BCS-4B		Lab(CS-2A)		10:00-12:50		Friday
-Operating Systems Lab 		BCS-4A		Lab(CS-2A)		14:30-17:20		Friday
-Database Systems Lab 		BCS-4A		Lab(CS-2B)		10:00-12:50		Friday
-Database Systems Lab 		BCS-4B		Lab(CS-2B)		14:30-17:20		Friday
-Object Oriented Programming lab 		BCS-2N		Lab(CS-4)		10:00-12:50		Friday
-Object Oriented Programming lab 		BCS-2M		Lab(CS-4)		14:30-17:20		Friday
-Object Oriented Programming lab 		BCS-2A		Lab(CS-6)		10:00-12:50		Friday
-Object Oriented Programming lab 		BCS-2J		Lab(CS-6)		14:30-17:20		Friday
-Programming Fundamentals Lab 		BCS-2Q		Lab(CS-8)		08:30-11:20		Friday
-Programming Fundamentals Lab 		BCS-2P		Lab(CS-8)		14:30-17:20		Friday
-Object Oriented Programming lab 		BDS-2A		Lab(CS-9)		10:00-12:50		Friday
-Object Oriented Programming lab 		BCS-2H		Lab(CS-9)		14:30-17:20		Friday
-Digital Logic Design Lab 		BCS-2J1		Physics Lab		08:30-11:20		Friday
-Digital Logic Design Lab 		BCS-2F1		Physics Lab		14:30-17:20		Friday
-Digital Logic Design Lab 		BCS-2J2		Micro Lab		08:30-11:20		Friday
-Digital Logic Design Lab 		BCS-2F2		Embedded Lab		14:30-17:20		Friday
-Human Resource Management 		MSP-2A		CS-2		17:30-20:20		Saturday
-Software for Mobile Devices 		BCS-6A		CS-3		14:30-15:50		Saturday
-Software for Mobile Devices 		BCS-6B		CS-3		16:00-17:20		Saturday
-Web Programming 		BCS-8A		CS-4		08:30-11:20		Saturday
-Software Testing 		BCS-8A		CS-4		11:30-12:50		Saturday
-Digital Logic Design 		BDS-2D		CS-4		14:30-15:50		Saturday
-Digital Logic Design 		BDS-2C		CS-4		16:00-17:20		Saturday
-Discrete Structures 		BSE-2C		CS-6		11:30-12:50		Saturday
-Discrete Structures 		BSE-2B		CS-6		14:30-15:50		Saturday
- Information Security 		BCS-8A		CS-7		14:30-17:20		Saturday
-Human Computer Interaction 		BCS-8A		CS-10		13:00-14:20		Saturday
-Information Retrieval 		BCS-8A		CS-11		08:30-09:50		Saturday
-Information Retrieval 		BCS-8B		CS-11		11:30-12:50		Saturday
-Digital Logic Design 		BCS-2F		CS-15		13:00-14:20		Saturday
-Digital Logic Design 		BCS-2D		CS-15		14:30-15:50		Saturday
-Differential Equations 		BCS-2D		CS-15		16:00-17:20		Saturday
-Marketing Management 		BCS-8A		CS-16		08:30-09:50		Saturday
-Com & Pres Skills Lab 		BDS-2B1		English Lab-1		10:00-11:20		Saturday
-Com & Pres Skills Lab 		BDS-2C1		English Lab-1		11:30-12:50		Saturday
-Com & Pres Skills Lab 		BDS-2D1		English Lab-1		16:00-17:20		Saturday
-Com & Pres Skills Lab 		BDS-2B2		English Lab-2		10:00-11:20		Saturday
-Com & Pres Skills Lab 		BDS-2C2		English Lab-2		11:30-12:50		Saturday
-Com & Pres Skills Lab 		BDS-2D2		English Lab-2		16:00-17:20		Saturday
-Com & Pres Skills Lab 		BCS-2F1		English Lab-3		10:00-11:20		Saturday
-Com & Pres Skills Lab 		BCS-2F2		English Lab-4		10:00-11:20		Saturday
-Artificial Intelligence Lab 		BCS-6E		Lab(CS-1)		11:30-14:20		Saturday
-Data Structures Lab 		BCS-4E		Lab(CS-2A)		08:30-11:20		Saturday
-Comp. Org. & Assembly Lang. Lab 		BCS-4E		Lab(CS-2A)		11:30-14:20		Saturday
-Comp. Org. & Assembly Lang. Lab 		BCS-4F		Lab(CS-2B)		08:30-11:20		Saturday
-Data Structures Lab 		BCS-4F		Lab(CS-2B)		11:30-14:20		Saturday
-Object Oriented Programming lab 		BDS-2B		Lab(CS-2B)		14:30-17:20		Saturday
-Object Oriented Programming lab 		BCS-4E		Lab(CS-4)		08:30-11:20		Saturday
-F. of Big Data Analytics Lab 		BDS-4A		Lab(CS-4)		11:30-14:20		Saturday
-Artificial Intelligence Lab 		BCS-6C		Lab(CS-6)		08:30-11:20		Saturday
-Computer Networks Lab 		BCS-6C		Lab(CS-6)		11:30-14:20		Saturday
-Data Structures Lab 		BDS-4C		Lab(CS-6)		14:30-17:20		Saturday
-Database Systems Lab 		BCS-6A		Lab(CS-8)		08:30-11:20		Saturday
-Artificial Intelligence Lab 		BCS-6A		Lab(CS-8)		11:30-14:20		Saturday
-Artificial Intelligence Lab 		BCS-6B		Lab(CS-9)		08:30-11:20		Saturday
-Computer Networks Lab 		BCS-6B		Lab(CS-9)		11:30-14:20		Saturday
-Digital Logic Design Lab 		BDS-2C1		Physics Lab		08:30-11:20		Saturday
-Digital Logic Design Lab 		BDS-2D1		Physics Lab		11:30-14:20		Saturday
-Digital Logic Design Lab 		BDS-2A1		Physics Lab		14:30-17:20		Saturday
-Digital Logic Design Lab 		BDS-2C2		Micro Lab		08:30-11:20		Saturday
-Digital Logic Design Lab 		BDS-2D2		Micro Lab		11:30-14:20		Saturday
-Digital Logic Design Lab 		BDS-2A2		Micro Lab		14:30-17:20		Saturday
+Data Science 		BCS-7A		Seminar Hall		08:30-09:50		Monday
+Professional Practices 		BCS-7A		Seminar Hall		10:00-11:20		Monday
+Theory of Prog. Languages 		MCS-1A		Seminar Hall		11:30-14:20		Monday
+Advance Theory of Computations 		MCS-1A		Seminar Hall		14:30-17:20		Monday
+Islamic & Religious Studies 		BCS-1A		CS-2		10:00-11:20		Monday
+Data Structures 		BCS-3H		CS-2		11:30-12:50		Monday
+Data Structures 		BCS-3J		CS-2		13:00-14:20		Monday
+Data Ware and Data Mining 		BCS-7A		CS-2		14:30-15:50		Monday
+Calculus and Ana. Geometry 		BCS-1H		CS-2		16:00-17:20		Monday
+Design & Analysis of Algo 		BDS-5A		CS-3		10:00-11:20		Monday
+Data Ware & Buss Intell 		BDS-5A		CS-3		11:30-12:50		Monday
+Design & Analysis of Algo 		BCS-5C		CS-3		13:00-14:20		Monday
+Applied Physics 		BCS-1C		CS-3		14:30-15:50		Monday
+Applied Physics 		BCS-1A		CS-3		16:00-17:20		Monday
+Software Project Management 		MSP-1A		CS-3		17:30-20:20		Monday
+Programming Fundamentals 		BCS-1A		CS-4		08:30-09:50		Monday
+Intro to Data Science 		BDS-3D		CS-4		10:00-11:20		Monday
+Com. Org. & Assembly Lang. 		BCS-3J		CS-4		11:30-12:50		Monday
+Programming Fundamentals 		BSE-1B		CS-4		13:00-14:20		Monday
+Calculus and Ana. Geometry 		BCS-1G		CS-4		14:30-15:50		Monday
+Information Security 		BCS-7A		CS-4		16:00-17:20		Monday
+Com. Org. & Assembly Lang. 		BCS-3A		CS-5		08:30-09:50		Monday
+Com. Org. & Assembly Lang. 		BCS-3B		CS-5		10:00-11:20		Monday
+Computer Networks 		BCS-5C		CS-5		11:30-12:50		Monday
+Computer Networks 		BCS-5D		CS-5		13:00-14:20		Monday
+Islamic & Religious Studies 		BCS-1E		CS-5		14:30-15:50		Monday
+Islamic & Religious Studies 		BCS-1F		CS-5		16:00-17:20		Monday
+Data Structures 		BCS-3G		CS-6		08:30-09:50		Monday
+Data Structures 		BCS-3F		CS-6		10:00-11:20		Monday
+Data Structures 		BDS-3C		CS-6		11:30-12:50		Monday
+Obj. Oriented Programming 		BDS-3E		CS-6		13:00-14:20		Monday
+Digital Logic Design 		BDS-3E		CS-6		14:30-15:50		Monday
+International Relations 		BCS-3K		CS-6		16:00-17:20		Monday
+Intro to Data Science 		BDS-3C		CS-7		08:30-09:50		Monday
+Theory of Automata 		BCS-5E		CS-7		10:00-11:20		Monday
+Software Design & Analysis 		BCS-5A		CS-7		11:30-12:50		Monday
+Human Computer Interaction 		BSE-3C		CS-7		13:00-14:20		Monday
+Obj. Oriented Programming 		BCS-3N		CS-7		14:30-15:50		Monday
+Web Programming 		BCS-9A		CS-7		16:00-17:20		Monday
+Linear Algebra 		BSE-3C		CS-9		08:30-09:50		Monday
+Com. Org. & Assembly Lang. 		BCS-3H		CS-9		10:00-11:20		Monday
+Database Systems 		BSE-5C		CS-9		11:30-12:50		Monday
+Theory of Automata 		BCS-5F		CS-9		13:00-14:20		Monday
+Calculus and Ana. Geometry 		BCS-1F		CS-9		14:30-15:50		Monday
+Calculus and Ana. Geometry 		BCS-1E		CS-9		16:00-17:20		Monday
+Discrete Structures 		BCS-3F		CS-10		08:30-09:50		Monday
+Discrete Structures 		BCS-3G		CS-10		10:00-11:20		Monday
+Programming Fundamentals 		BDS-1A		CS-10		11:30-12:50		Monday
+Programming Fundamentals 		BDS-1B		CS-10		13:00-14:20		Monday
+Information Security 		BCS-7H		CS-10		14:30-15:50		Monday
+Software Testing 		BCS-7A		CS-10		16:00-17:20		Monday
+Numerical Computing 		BCS-5A		CS-11		08:30-09:50		Monday
+Com. Org. & Assembly Lang. 		BDS-3A		CS-11		10:00-11:20		Monday
+Com. Org. & Assembly Lang. 		BDS-3B		CS-11		11:30-12:50		Monday
+Data Structures 		BSE-3A		CS-11		13:00-14:20		Monday
+Com. Org. & Assembly Lang. 		BCS-3K		CS-11		14:30-15:50		Monday
+Operations Research 		BSE-5A		CS-11		16:00-17:20		Monday
+Programming Fundamentals 		BCS-1D		CS-15		08:30-09:50		Monday
+Programming Fundamentals 		BCS-1B		CS-15		10:00-11:20		Monday
+Linear Algebra 		BCS-3A		CS-15		11:30-12:50		Monday
+Data Analysis & Visualization 		BDS-5A		CS-15		13:00-14:20		Monday
+Applied Physics 		BCS-1J		CS-15		14:30-15:50		Monday
+Tech. & Business Writing 		BDS-5B		CS-15		16:00-17:20		Monday
+Marketing Management 		BCS-3E		CS-16		08:30-09:50		Monday
+Probability and Statistics 		BDS-3C		CS-16		10:00-11:20		Monday
+Probability and Statistics 		BDS-3D		CS-16		11:30-12:50		Monday
+Professional Practices 		BCS-7B		CS-16		13:00-14:20		Monday
+Applied Physics 		BSE-1A		CS-16		14:30-15:50		Monday
+Principles of Leadership 		BCS-3G		CS-16		16:00-17:20		Monday
+Discrete Structures 		BCS-3H		Lib		08:30-09:50		Monday
+Discrete Structures 		BCS-3J		Lib		10:00-11:20		Monday
+Soft Quality Eng 		5B		Lib		11:30-12:50		Monday
+Mass Communication  		BCS-3M		Lib		14:30-15:50		Monday
+Mod. Politics &Government 		BCS-3L		Lib		16:00-17:20		Monday
+Accounting and Finance 		BCS-3C		E&M-1		08:30-09:50		Monday
+Accounting and Finance 		BCS-3D		E&M-1		10:00-11:20		Monday
+Software Design & Analysis 		BCS-5F		E&M-1		11:30-12:50		Monday
+Software Design & Analysis 		BCS-5E		E&M-1		13:00-14:20		Monday
+English Composition and Comprehension 		BSE-1C		E&M-1		14:30-16:20		Monday
+Differential Equations 		BCS-3M		E&M-2		08:30-09:50		Monday
+Data Structures 		BSE-3B		E&M-2		10:00-11:20		Monday
+Programming Fundamentals 		BSE-1C		E&M-2		11:30-12:50		Monday
+Linear Algebra 		BCS-3E		E&M-2		13:00-14:20		Monday
+Linear Algebra 		BCS-3F		E&M-2		14:30-15:50		Monday
+Probability and Statistics 		BDS-3A		E&M-2		16:00-17:20		Monday
+Linear Algebra 		BCS-3L		E&M-3		08:30-09:50		Monday
+Linear Algebra 		BCS-3M		E&M-3		10:00-11:20		Monday
+Data Structures 		BCS-3C		E&M-3		11:30-12:50		Monday
+Tech. & Business Writing 		BSE-5A		E&M-3		14:30-15:50		Monday
+Islamic & Religious Studies 		BCS-1B		E&M-5		08:30-09:50		Monday
+Discrete Structures 		BCS-3A		E&M-5		10:00-11:20		Monday
+Discrete Structures 		BCS-3B		E&M-5		11:30-12:50		Monday
+Design & Analysis of Algo 		BCS-5B		E&M-5		13:00-14:20		Monday
+Pakistan Studies 		BCS-1H		E&M-5		14:30-15:50		Monday
+Design & Analysis of Algo 		BCS-5A		E&M-5		16:00-17:20		Monday
+Programming Fundamentals 		BCS-1J		E&M-11		08:30-09:50		Monday
+Programming Fundamentals 		BCS-1G		E&M-11		10:00-11:20		Monday
+Blockchain and Crypt 		BCS-9A		E&M-11		11:30-12:50		Monday
+Blockchain and Crypt 		BCS-7A		E&M-11		13:00-14:20		Monday
+Software Design & Analysis 		BCS-5B		E&M-11		14:30-15:50		Monday
+Artificial Intelligence 		BCS-7B		E&M-11		16:00-17:20		Monday
+Calculus and Ana. Geometry 		BCS-1C		CE-1		08:30-09:50		Monday
+Discrete Structures 		BDS-3B		CE-1		10:00-11:20		Monday
+Discrete Structures 		BDS-3A		CE-1		11:30-12:50		Monday
+Com. Org. & Assembly Lang. 		BCS-3C		CE-1		13:00-14:20		Monday
+Pakistan Studies 		BDS-1B		CE-1		14:30-15:50		Monday
+Pakistan Studies 		BSE-1A		CE-1		16:00-17:20		Monday
+Applied Physics 		BCS-1F		CE-2		08:30-09:50		Monday
+Applied Physics 		BCS-1E		CE-2		10:00-11:20		Monday
+Islamic & Religious Studies 		BCS-1C		CE-2		11:30-12:50		Monday
+Islamic & Religious Studies 		BCS-1D		CE-2		13:00-14:20		Monday
+Pakistan Studies 		BSE-1B		CE-2		14:30-15:50		Monday
+Discrete Structures 		BCS-3D		CE-3		08:30-09:50		Monday
+Discrete Structures 		BCS-3E		CE-3		10:00-11:20		Monday
+Programming Fundamentals 		BSE-1A		CE-3		11:30-12:50		Monday
+Software Testing 		BCS-7B		CE-3		14:30-15:50		Monday
+Tech. & Business Writing 		BCS-5C		CS-1		08:30-09:50		Monday
+Tech. & Business Writing 		BCS-5B		CS-1		10:00-11:20		Monday
+English Composition and Comprehension 		BCS-1A		CS-1		11:30-13:20		Monday
+English Composition and Comprehension 		BCS-1B		CS-1		14:00-15:50		Monday
+Tech. & Business Writing 		BCS-5E		CS-8		08:30-09:50		Monday
+Tech. & Business Writing 		BCS-5A		CS-8		10:00-11:20		Monday
+Software Requirement Eng. 		BSE-3B		E&M-16		08:30-09:50		Monday
+Software Requirement Eng. 		BSE-3A		E&M-16		10:00-11:20		Monday
+Information Security 		BCS-7B		E&M-16		11:30-12:50		Monday
+Pakistan Studies 		BCS-1J		E&M-16		13:00-14:20		Monday
+Web Programming 		BCS-7A		E&M-16		14:30-15:50		Monday
+English Comp Lab 		BSE-1A1		English Lab-1		08:30-09:50		Monday
+English Comp Lab 		BCS-1C1		English Lab-1		10:00-11:20		Monday
+English Comp Lab 		BCS-1H1		English Lab-1		11:30-12:50		Monday
+English Comp Lab 		BSE-1A2		English Lab-2		08:30-09:50		Monday
+English Comp Lab 		BCS-1C2		English Lab-2		10:00-11:20		Monday
+English Comp Lab 		BCS-1H2		English Lab-2		11:30-12:50		Monday
+English Comp Lab 		BDS-1B1		English Lab-3		08:30-09:50		Monday
+English Comp Lab 		BCS-1D1		English Lab-3		10:00-11:20		Monday
+English Comp Lab 		BSE-1B1		English Lab-3		11:30-12:50		Monday
+English Comp Lab 		BDS-1B2		English Lab-4		08:30-09:50		Monday
+English Comp Lab 		BCS-1D2		English Lab-4		10:00-11:20		Monday
+English Comp Lab 		BSE-1B2		English Lab-4		11:30-12:50		Monday
+Intro. to Info & Comm. Technologies 		BSE-1C		Lab(CS-1)		08:30-11:20		Monday
+Intro. to Info & Comm. Technologies 		BCS-1G		Lab(CS-1)		11:30-14:20		Monday
+Data Structures Lab 		BCS-3A1, BCS-3A2		Lab(CS-1)		14:30-17:20		Monday
+Intro. to Info & Comm. Technologies 		BSE-1B		Lab(CS-2A)		08:30-11:20		Monday
+Intro. to Info & Comm. Technologies 		BCS-1F		Lab(CS-2A)		11:30-14:20		Monday
+Data Structures Lab 		BCS-3B1,BCS-3B2		Lab(CS-2A)		14:30-17:20		Monday
+Programming Fundamentals Lab 		BDS-1B1,BDS-1B2		Lab(CS-2B)		10:00-12:50		Monday
+Data Structures Lab 		BCS-3D1,BCS-3D2		Lab(CS-2B)		14:30-17:20		Monday
+Programming Fundamentals Lab 		BDS-1A1,BDS-1A2		Lab(CS-4)		08:30-11:20		Monday
+Data Structures Lab 		BDS-3A1, BDS3A2		Lab(CS-4)		13:00-15:50		Monday
+Soft Const & Development Lab 		BSE-5B1,BSE-5B2		Lab(CS-6)		08:30-11:20		Monday
+Data Structures Lab 		BDS-3B1, BDS-3B2		Lab(CS-6)		13:00-15:50		Monday
+Com. Org. & Assembly Lang. Lab 		BDS-3C1, BDS-3C2		Lab(CS-8)		13:00-15:50		Monday
+Com. Org. & Assembly Lang. Lab 		BCS-3K1, BCS-3K2		Lab(CS-9)		11:30-14:20		Monday
+Com. Org. & Assembly Lang. Lab 		BCS-3H1,BCS-3H2		Lab(CS-9)		14:30-17:20		Monday
+Calculus and Ana. Geometry 		BCS-1A		Seminar Hall		08:30-09:50		Tuesday
+Parallel and Dist. Computing 		BCS-7A		Seminar Hall		10:00-11:20		Tuesday
+Data Science Tools and Tech. 		MDS-1A		Seminar Hall		11:30-14:20		Tuesday
+Research Methodology 		MCS-3A		Seminar Hall		14:30-17:20		Tuesday
+Obj. Oriented Programming 		BSE-3D		CS-2		08:30-09:50		Tuesday
+Database Systems 		BCS-5A		CS-2		10:00-11:20		Tuesday
+Database Systems 		BCS-5C		CS-2		11:30-12:50		Tuesday
+Professional Practices 		BCS-7D		CS-2		13:00-14:20		Tuesday
+Database Systems 		BCS-5B		CS-2		14:30-15:50		Tuesday
+Applied Physics 		BCS-1B		CS-2		16:00-17:20		Tuesday
+Fund. of Computer Vision 		BCS-7A		CS-3		08:30-09:50		Tuesday
+Operating Systems 		BSE-5B		CS-3		10:00-11:20		Tuesday
+Operating Systems 		BSE-5A		CS-3		11:30-12:50		Tuesday
+Human Computer Interaction 		BSE-3B		CS-3		13:00-14:20		Tuesday
+Linear Algebra 		BCS-3K		CS-3		14:30-15:50		Tuesday
+Linear Algebra 		BCS-3J		CS-3		16:00-17:20		Tuesday
+Interaction Design 		MSP-1A		CS-3		17:30-20:20		Tuesday
+Information Security 		BCS-7J		CS-4		08:30-09:50		Tuesday
+Com. Org. & Assembly Lang. 		BCS-3L		CS-4		10:00-11:20		Tuesday
+Natural Language Processing 		MDS-3A		CS-4		11:30-12:50		Tuesday
+Compiler Construction 		BCS-7A		CS-4		13:00-14:20		Tuesday
+Information Security 		BCS-7E		CS-4		14:30-15:50		Tuesday
+Programming Fundamentals 		BCS-1H		CS-4		16:00-17:20		Tuesday
+Data Structures 		BCS-3A		CS-5		08:30-09:50		Tuesday
+Data Structures 		BCS-3B		CS-5		10:00-11:20		Tuesday
+Obj. Oriented Programming 		BCS-3M		CS-5		11:30-12:50		Tuesday
+Computer Networks 		BCS-5E		CS-5		13:00-14:20		Tuesday
+Tech. & Business Writing 		BCS-5D		CS-5		14:30-15:50		Tuesday
+Stat and Math Methods for Data Science 		MDS-1A		CS-6		08:30-11:20		Tuesday
+Calculus and Ana. Geometry 		BCS-1B		CS-6		11:30-12:50		Tuesday
+Probability and Statistics 		BDS-3B		CS-6		13:00-14:20		Tuesday
+Tech. & Business Writing 		BCS-5F		CS-6		14:30-15:50		Tuesday
+Operations Research 		BSE-5B		CS-6		16:00-17:20		Tuesday
+Intro to Data Science 		BDS-3A		CS-7		08:30-09:50		Tuesday
+Intro to Data Science 		BDS-3B		CS-7		10:00-11:20		Tuesday
+Professional Practices 		BCS-7E		CS-7		11:30-12:50		Tuesday
+Natural Language Processing 		BCS-7A		CS-7		13:00-14:20		Tuesday
+Information Security 		BCS-7F		CS-7		16:00-17:20		Tuesday
+Web Programming 		BCS-7B		CS-9		08:30-09:50		Tuesday
+Com. Org. & Assembly Lang. 		BDS-3C		CS-9		10:00-11:20		Tuesday
+Fund. of Computer Vision 		BCS-7B		CS-9		11:30-12:50		Tuesday
+Theory of Automata 		BCS-5B		CS-9		13:00-14:20		Tuesday
+Theory of Automata 		BCS-5A		CS-9		14:30-15:50		Tuesday
+Artificial Intelligence 		BCS-7A		CS-9		16:00-17:20		Tuesday
+Theory of Automata 		BCS-5D		CS-10		08:30-09:50		Tuesday
+Theory of Automata 		BCS-5C		CS-10		10:00-11:20		Tuesday
+Data Structures 		BCS-3E		CS-10		11:30-12:50		Tuesday
+Data Structures 		BCS-3D		CS-10		13:00-14:20		Tuesday
+Operating Systems 		BDS-5A		CS-10		14:30-15:50		Tuesday
+Numerical Computing 		BCS-5B		CS-11		08:30-09:50		Tuesday
+Data Structures 		BDS-3A		CS-11		10:00-11:20		Tuesday
+Data Structures 		BDS-3B		CS-11		11:30-12:50		Tuesday
+Com. Org. & Assembly Lang. 		BCS-3K		CS-11		13:00-14:20		Tuesday
+Obj. Oriented Programming 		BCS-3L		CS-11		14:30-15:50		Tuesday
+Calculus and Ana. Geometry 		BDS-1A		CS-15		08:30-09:50		Tuesday
+Calculus and Ana. Geometry 		BDS-1B		CS-15		10:00-11:20		Tuesday
+Pakistan Studies 		BDS-1A		CS-15		11:30-12:50		Tuesday
+Digital Logic Design 		BCS-3N		CS-15		13:00-14:20		Tuesday
+Applied Physics 		BCS-1J		CS-15		14:30-15:50		Tuesday
+Programming Fundamentals 		BCS-1C		CS-16		08:30-09:50		Tuesday
+Psychology 		BCS-3A		CS-16		10:00-11:20		Tuesday
+Linear Algebra 		BDS-1B		CS-16		11:30-12:50		Tuesday
+Professional Practices 		BCS-7F		CS-16		13:00-14:20		Tuesday
+Information Security 		BCS-7G		CS-16		14:30-15:50		Tuesday
+Applied Physics 		BSE-1C		CS-16		16:00-17:20		Tuesday
+Discrete Structures 		BCS-3L		Lib		08:30-09:50		Tuesday
+Discrete Structures 		BCS-3K		Lib		10:00-11:20		Tuesday
+Com. Org. & Assembly Lang. 		BCS-3G		Lib		11:30-12:50		Tuesday
+Entrepreneurship 		BSE-3A		Lib		13:00-14:20		Tuesday
+Linear Algebra 		BCS-3B		Lib		14:30-15:50		Tuesday
+Principles of Leadership 		BCS-3H		Lib		16:00-17:20		Tuesday
+Marketing Management 		BCS-3F		E&M-1		08:30-09:50		Tuesday
+Applied Programming 		MCS-3A		E&M-1		10:00-12:50		Tuesday
+English Composition and Comprehension 		BSE-1A		E&M-1		14:20-16:10		Tuesday
+Programming Fundamentals 		BCS-1F		E&M-2		08:30-09:50		Tuesday
+Soft Quality Eng 		5A		E&M-2		10:00-11:20		Tuesday
+Human Computer Interaction 		BSE-3A		E&M-2		11:30-12:50		Tuesday
+Linear Algebra 		BCS-3D		E&M-2		14:30-15:50		Tuesday
+Entrepreneurship 		BCS-3P		E&M-2		16:00-17:20		Tuesday
+Entrepreneurship 		BCS-3N		E&M-3		08:30-09:50		Tuesday
+Com. Org. & Assembly Lang. 		BCS-3F		E&M-3		10:00-11:20		Tuesday
+Linear Algebra 		BSE-3A		E&M-3		14:30-15:50		Tuesday
+Linear Algebra 		BSE-3B		E&M-3		16:00-17:20		Tuesday
+Discrete Structures 		BDS-3C		E&M-5		08:30-09:50		Tuesday
+Calculus and Ana. Geometry 		BCS-1J		E&M-5		10:00-11:20		Tuesday
+Calculus and Ana. Geometry 		BSE-1C		E&M-5		11:30-12:50		Tuesday
+Linear Algebra 		BDS-1A		E&M-5		13:00-14:20		Tuesday
+Entrepreneurship 		BSE-3B		E&M-5		14:30-15:50		Tuesday
+Discrete Structures 		BCS-3M		E&M-11		08:30-09:50		Tuesday
+Programming Fundamentals 		BCS-1E		E&M-11		10:00-11:20		Tuesday
+Computer Networks 		BCS-9A		E&M-11		11:30-12:50		Tuesday
+Psychology 		BCS-3B		E&M-11		13:00-14:20		Tuesday
+Digital Logic Design 		BCS-3M		E&M-11		14:30-15:50		Tuesday
+Calculus and Ana. Geometry 		BCS-1D		CE-1		08:30-09:50		Tuesday
+Com. Org. & Assembly Lang. 		BCS-3D		CE-1		10:00-11:20		Tuesday
+Data Structures 		BCS-3K		CE-1		11:30-12:50		Tuesday
+Com. Org. & Assembly Lang. 		BCS-3E		CE-1		13:00-14:20		Tuesday
+Applied Physics 		BCS-1H		CE-1		14:30-15:50		Tuesday
+Pakistan Studies 		BSE-1C		CE-2		08:30-09:50		Tuesday
+International Relations 		BCS-3J		CE-2		10:00-11:20		Tuesday
+Information Retrieval 		BCS-7A		CE-2		11:30-12:50		Tuesday
+Software Requirement Eng. 		BSE-3C		CE-2		13:00-14:20		Tuesday
+Applied Physics 		BCS-1D		CE-2		14:30-15:50		Tuesday
+Applied Physics 		BCS-1G		CE-2		16:00-17:20		Tuesday
+Linear Algebra 		BCS-3G		CE-3		08:30-09:50		Tuesday
+Linear Algebra 		BCS-3H		CE-3		10:00-11:20		Tuesday
+Software for Mobile Devices 		BCS-7A		CE-3		11:30-12:50		Tuesday
+Software for Mobile Devices 		BCS-7B		CE-3		13:00-14:20		Tuesday
+Tech. & Business Writing 		BSE-5B		CE-3		14:30-15:50		Tuesday
+Pakistan Studies 		BCS-1G		CS-1		08:30-09:50		Tuesday
+Modern Politics and Gov. 		BSE-3A		CS-1		10:00-11:20		Tuesday
+Advanced Analysis of Algorithms 		MCS-1A		CS-1		11:30-14:20		Tuesday
+Discrete Structures 		BCS-3C		CS-1		14:30-15:50		Tuesday
+Probability and Statistics 		BCS-5A		CS-1		16:00-17:20		Tuesday
+Information Retrieval 		BCS-7B		CS-8		10:00-11:20		Tuesday
+Computer Networks 		BCS-5B		CS-8		11:30-12:50		Tuesday
+Computer Networks 		BCS-5A		CS-8		13:00-14:20		Tuesday
+Numerical Computing 		BCS-5E		CS-8		14:30-15:50		Tuesday
+Numerical Computing 		BCS-5F		CS-8		16:00-17:20		Tuesday
+Numerical Computing 		BCS-5C		E&M-16		08:30-09:50		Tuesday
+Numerical Computing 		BCS-5D		E&M-16		10:00-11:20		Tuesday
+Operating Systems 		BCS-5B		E&M-16		11:30-12:50		Tuesday
+Soft Const & Development 		BSE-5B		E&M-16		13:00-14:20		Tuesday
+Operating Systems 		BCS-5A		E&M-16		14:30-15:50		Tuesday
+Soft Const & Development 		BSE-5A		E&M-16		16:00-17:20		Tuesday
+English Comp Lab 		BCS-1E1		English Lab-1		08:30-09:50		Tuesday
+English Comp Lab 		BCS-1A1		English Lab-1		10:00-11:20		Tuesday
+English Comp Lab 		BCS-1F1		English Lab-1		11:30-12:50		Tuesday
+English Comp Lab 		BSE-1C1		English Lab-1		13:00-14:20		Tuesday
+English Comp Lab 		BDS-1A1		English Lab-1		14:30-15:50		Tuesday
+English Comp Lab 		BCS-1E2		English Lab-2		08:30-09:50		Tuesday
+English Comp Lab 		BCS-1A2		English Lab-2		10:00-11:20		Tuesday
+English Comp Lab 		BCS-1F2		English Lab-2		11:30-12:50		Tuesday
+English Comp Lab 		BSE-1C2		English Lab-2		13:00-14:20		Tuesday
+English Comp Lab 		BDS-1A2		English Lab-2		14:30-15:50		Tuesday
+English Comp Lab 		BCS-1J1		English Lab-3		08:30-09:50		Tuesday
+English Comp Lab 		BCS-1B1		English Lab-3		10:00-11:20		Tuesday
+English Comp Lab 		BCS-1G1		English Lab-3		11:30-12:50		Tuesday
+English Comp Lab 		BCS-1J2		English Lab-4		08:30-09:50		Tuesday
+English Comp Lab 		BCS-1B2		English Lab-4		10:00-11:20		Tuesday
+English Comp Lab 		BCS-1G2		English Lab-4		11:30-12:50		Tuesday
+Programming Fundamentals Lab 		BCS-1D1,BCS-1D2		Lab(CS-1)		11:30-14:20		Tuesday
+Com. Org. & Assembly Lang. Lab 		BCS-3F1, BCS-3F2		Lab(CS-1)		14:30-17:20		Tuesday
+Programming Fundamentals Lab 		BCS-1J1,BCS-1J2		Lab(CS-2A)		11:30-14:20		Tuesday
+Intro. to Info & Comm. Technologies 		BCS-1C,BCS-2C		Lab(CS-2A)		14:30-17:20		Tuesday
+Data Structures Lab 		BCS-3C1,BCS-3C2		Lab(CS-2B)		08:30-11:20		Tuesday
+Programming Fundamentals Lab 		BCS-1E1,BCS-1E2		Lab(CS-2B)		11:30-14:20		Tuesday
+Programming Fundamentals Lab 		BCS-1F1,BCS-1F2		Lab(CS-2B)		14:30-17:20		Tuesday
+Linear Algebra 		BCS-3C		Lab(CS-3)		11:30-12:50		Tuesday
+Tech. & Business Writing 		BDS-5A		Lab(CS-3)		13:00-14:20		Tuesday
+Com. Org. & Assembly Lang. Lab 		BCS-3E1, BCS-3E2		Lab(CS-4)		08:30-11:20		Tuesday
+Programming Fundamentals Lab 		BCS-1C1, BCS-1C2		Lab(CS-4)		11:30-14:20		Tuesday
+Com. Org. & Assembly Lang. Lab 		BCS-3G1, BCS-3G2		Lab(CS-4)		14:30-17:20		Tuesday
+Data Analysis & Visualization Lab 		BDS-5A1, BDS-5A2		Lab(CS-6)		08:30-11:20		Tuesday
+Programming Fundamentals Lab 		BCS-1A1,BCS-1A2		Lab(CS-6)		11:30-14:20		Tuesday
+Operating Systems Lab 		BSE-5A1,BSE-5A2		Lab(CS-8)		08:30-11:20		Tuesday
+Programming Fundamentals Lab 		BCS-1H1,BCS-1H2		Lab(CS-8)		11:30-14:20		Tuesday
+Computer Networks Lab  		BCS-5C1, BCS-5C2		Lab(CS-8)		14:30-17:20		Tuesday
+Programming Fundamentals Lab 		BSE-1A1,BSE-1A2		Lab(CS-9)		11:30-14:20		Tuesday
+Digital Logic Design Lab 		BDS-3E1		Physics Lab		14:30-17:20		Tuesday
+Digital Logic Design Lab 		BDS-3E2		Micro Lab		14:30-17:20		Tuesday
+Data Science 		BCS-7A		Seminar Hall		08:30-09:50		Wednesday
+Professional Practices 		BCS-7A		Seminar Hall		10:00-11:20		Wednesday
+Software Engineering 		BCS-7A		Seminar Hall		11:30-12:50		Wednesday
+Information Retrieval & Text Mining 		MCS-1A		Seminar Hall		13:00-15:50		Wednesday
+Islamic & Religious Studies 		BCS-1A		CS-2		10:00-11:20		Wednesday
+Data Structures 		BCS-3H		CS-2		11:30-12:50		Wednesday
+Data Structures 		BCS-3J		CS-2		13:00-14:20		Wednesday
+Data Ware and Data Mining 		BCS-7A		CS-2		14:30-15:50		Wednesday
+Calculus and Ana. Geometry 		BCS-1H		CS-2		16:00-17:20		Wednesday
+Differential Equations 		BCS-3M		CS-3		08:30-09:50		Wednesday
+Design & Analysis of Algo 		BDS-5A		CS-3		10:00-11:20		Wednesday
+Data Ware & Buss Intell 		BDS-5A		CS-3		11:30-12:50		Wednesday
+Design & Analysis of Algo 		BCS-5C		CS-3		13:00-14:20		Wednesday
+Applied Physics 		BCS-1C		CS-3		14:30-15:50		Wednesday
+Applied Physics 		BCS-1A		CS-3		16:00-17:20		Wednesday
+Software Process Management and Metrics 		MSP-1A		CS-3		17:30-20:20		Wednesday
+Programming Fundamentals 		BCS-1A		CS-4		08:30-09:50		Wednesday
+Intro to Data Science 		BDS-3D		CS-4		10:00-11:20		Wednesday
+Com. Org. & Assembly Lang. 		BCS-3J		CS-4		11:30-12:50		Wednesday
+Programming Fundamentals 		BSE-1B		CS-4		13:00-14:20		Wednesday
+Calculus and Ana. Geometry 		BCS-1G		CS-4		14:30-15:50		Wednesday
+Information Security 		BCS-7A		CS-4		16:00-17:20		Wednesday
+Software Design & Analysis 		BCS-5D		CS-5		08:30-09:50		Wednesday
+Software Design & Analysis 		BCS-5C		CS-5		10:00-11:20		Wednesday
+Computer Networks 		BCS-5C		CS-5		11:30-12:50		Wednesday
+Computer Networks 		BCS-5D		CS-5		13:00-14:20		Wednesday
+Islamic & Religious Studies 		BCS-1E		CS-5		14:30-15:50		Wednesday
+Islamic & Religious Studies 		BCS-1F		CS-5		16:00-17:20		Wednesday
+Data Structures 		BCS-3G		CS-6		08:30-09:50		Wednesday
+Data Structures 		BCS-3F		CS-6		10:00-11:20		Wednesday
+Data Structures 		BDS-3C		CS-6		11:30-12:50		Wednesday
+Obj. Oriented Programming 		BDS-3E		CS-6		13:00-14:20		Wednesday
+Digital Logic Design 		BDS-3E		CS-6		14:30-15:50		Wednesday
+International Relations 		BCS-3K		CS-6		16:00-17:20		Wednesday
+Intro to Data Science 		BDS-3C		CS-7		08:30-09:50		Wednesday
+Theory of Automata 		BCS-5E		CS-7		10:00-11:20		Wednesday
+Software Design & Analysis 		BCS-5A		CS-7		11:30-12:50		Wednesday
+Human Computer Interaction 		BSE-3C		CS-7		13:00-14:20		Wednesday
+Obj. Oriented Programming 		BCS-3N		CS-7		14:30-15:50		Wednesday
+Web Programming 		BCS-9A		CS-7		16:00-17:20		Wednesday
+Linear Algebra 		BSE-3C		CS-9		08:30-09:50		Wednesday
+Com. Org. & Assembly Lang. 		BCS-3H		CS-9		10:00-11:20		Wednesday
+Database Systems 		BSE-5C		CS-9		11:30-12:50		Wednesday
+Theory of Automata 		BCS-5F		CS-9		13:00-14:20		Wednesday
+Calculus and Ana. Geometry 		BCS-1F		CS-9		14:30-15:50		Wednesday
+Calculus and Ana. Geometry 		BCS-1E		CS-9		16:00-17:20		Wednesday
+Discrete Structures 		BCS-3F		CS-10		08:30-09:50		Wednesday
+Discrete Structures 		BCS-3G		CS-10		10:00-11:20		Wednesday
+Programming Fundamentals 		BDS-1A		CS-10		11:30-12:50		Wednesday
+Programming Fundamentals 		BDS-1B		CS-10		13:00-14:20		Wednesday
+Information Security 		BCS-7H		CS-10		14:30-15:50		Wednesday
+Software Testing 		BCS-7A		CS-10		16:00-17:20		Wednesday
+Numerical Computing 		BCS-5A		CS-11		08:30-09:50		Wednesday
+Com. Org. & Assembly Lang. 		BDS-3A		CS-11		10:00-11:20		Wednesday
+Com. Org. & Assembly Lang. 		BDS-3B		CS-11		11:30-12:50		Wednesday
+Data Structures 		BSE-3A		CS-11		13:00-14:20		Wednesday
+Web Programming 		BCS-7A		CS-11		14:30-15:50		Wednesday
+Operations Research 		BSE-5A		CS-11		16:00-17:20		Wednesday
+Programming Fundamentals 		BCS-1D		CS-15		08:30-09:50		Wednesday
+Programming Fundamentals 		BCS-1B		CS-15		10:00-11:20		Wednesday
+Linear Algebra 		BCS-3A		CS-15		11:30-12:50		Wednesday
+Data Analysis & Visualization 		BDS-5A		CS-15		13:00-14:20		Wednesday
+Software Engineering 		BCS-7B		CS-15		14:30-15:50		Wednesday
+Marketing Management 		BCS-3E		CS-16		08:30-09:50		Wednesday
+Probability and Statistics 		BDS-3C		CS-16		10:00-11:20		Wednesday
+Probability and Statistics 		BDS-3D		CS-16		11:30-12:50		Wednesday
+Professional Practices 		BCS-7B		CS-16		13:00-14:20		Wednesday
+Applied Physics 		BSE-1A		CS-16		14:30-15:50		Wednesday
+Principles of Leadership 		BCS-3G		CS-16		16:00-17:20		Wednesday
+Discrete Structures 		BCS-3H		Lib		08:30-09:50		Wednesday
+Discrete Structures 		BCS-3J		Lib		10:00-11:20		Wednesday
+Soft Quality Eng 		5B		Lib		11:30-12:50		Wednesday
+Mass Communication  		BCS-3M		Lib		14:30-15:50		Wednesday
+Mod. Politics &Government 		BCS-3L		Lib		16:00-17:20		Wednesday
+Accounting and Finance 		BCS-3C		E&M-1		08:30-09:50		Wednesday
+Accounting and Finance 		BCS-3D		E&M-1		10:00-11:20		Wednesday
+Software Design & Analysis 		BCS-5F		E&M-1		11:30-12:50		Wednesday
+Software Design & Analysis 		BCS-5E		E&M-1		13:00-14:20		Wednesday
+Com. Org. & Assembly Lang. 		BCS-3A		E&M-2		08:30-09:50		Wednesday
+Data Structures 		BSE-3B		E&M-2		10:00-11:20		Wednesday
+Programming Fundamentals 		BSE-1C		E&M-2		11:30-12:50		Wednesday
+Linear Algebra 		BCS-3E		E&M-2		13:00-14:20		Wednesday
+Linear Algebra 		BCS-3F		E&M-2		14:30-15:50		Wednesday
+Probability and Statistics 		BDS-3A		E&M-2		16:00-17:20		Wednesday
+Linear Algebra 		BCS-3L		E&M-3		08:30-09:50		Wednesday
+Linear Algebra 		BCS-3M		E&M-3		10:00-11:20		Wednesday
+Data Structures 		BCS-3C		E&M-3		11:30-12:50		Wednesday
+Islamic & Religious Studies 		BCS-1B		E&M-5		08:30-09:50		Wednesday
+Com. Org. & Assembly Lang. 		BCS-3B		E&M-5		10:00-11:20		Wednesday
+Discrete Structures 		BCS-3B		E&M-5		11:30-12:50		Wednesday
+Design & Analysis of Algo 		BCS-5B		E&M-5		13:00-14:20		Wednesday
+Pakistan Studies 		BCS-1H		E&M-5		14:30-15:50		Wednesday
+Design & Analysis of Algo 		BCS-5A		E&M-5		16:00-17:20		Wednesday
+Programming Fundamentals 		BCS-1J		E&M-11		08:30-09:50		Wednesday
+Programming Fundamentals 		BCS-1G		E&M-11		10:00-11:20		Wednesday
+Blockchain and Crypt 		BCS-9A		E&M-11		11:30-12:50		Wednesday
+Blockchain and Crypt 		BCS-7A		E&M-11		13:00-14:20		Wednesday
+Software Design & Analysis 		BCS-5B		E&M-11		14:30-15:50		Wednesday
+Artificial Intelligence 		BCS-7B		E&M-11		16:00-17:20		Wednesday
+Calculus and Ana. Geometry 		BCS-1C		CE-1		08:30-09:50		Wednesday
+Discrete Structures 		BDS-3B		CE-1		10:00-11:20		Wednesday
+Discrete Structures 		BDS-3A		CE-1		11:30-12:50		Wednesday
+Com. Org. & Assembly Lang. 		BCS-3C		CE-1		13:00-14:20		Wednesday
+Pakistan Studies 		BDS-1B		CE-1		14:30-15:50		Wednesday
+Pakistan Studies 		BSE-1A		CE-1		16:00-17:20		Wednesday
+Applied Physics 		BCS-1F		CE-2		08:30-09:50		Wednesday
+Applied Physics 		BCS-1E		CE-2		10:00-11:20		Wednesday
+Islamic & Religious Studies 		BCS-1C		CE-2		11:30-12:50		Wednesday
+Islamic & Religious Studies 		BCS-1D		CE-2		13:00-14:20		Wednesday
+Pakistan Studies 		BSE-1B		CE-2		14:30-15:50		Wednesday
+Discrete Structures 		BCS-3D		CE-3		08:30-09:50		Wednesday
+Discrete Structures 		BCS-3E		CE-3		10:00-11:20		Wednesday
+Programming Fundamentals 		BSE-1A		CE-3		11:30-12:50		Wednesday
+Software Testing 		BCS-7B		CE-3		14:30-15:50		Wednesday
+Tech. & Business Writing 		BCS-5C		CS-1		08:30-09:50		Wednesday
+Tech. & Business Writing 		BCS-5B		CS-1		10:00-11:20		Wednesday
+English Composition and Comprehension 		BCS-1E		CS-1		11:30-13:20		Wednesday
+English Composition and Comprehension 		BCS-1D		CS-1		14:30-16:20		Wednesday
+Tech. & Business Writing 		BCS-5E		CS-8		08:30-09:50		Wednesday
+Tech. & Business Writing 		BCS-5A		CS-8		10:00-11:20		Wednesday
+English Composition and Comprehension 		BCS-1F		CS-8		11:30-13:20		Wednesday
+English Composition and Comprehension 		BCS-1J		CS-8		14:30-16:20		Wednesday
+Software Requirement Eng. 		BSE-3B		E&M-16		08:30-09:50		Wednesday
+Software Requirement Eng. 		BSE-3A		E&M-16		10:00-11:20		Wednesday
+Information Security 		BCS-7B		E&M-16		11:30-12:50		Wednesday
+Pakistan Studies 		BCS-1J		E&M-16		13:00-14:20		Wednesday
+English Composition and Comprehension 		BDS-1A		E&M-16		14:30-16:20		Wednesday
+English Comp Lab 		BSE-1A1		English Lab-1		08:30-09:50		Wednesday
+English Comp Lab 		BCS-1C1		English Lab-1		10:00-11:20		Wednesday
+English Comp Lab 		BCS-1H1		English Lab-1		11:30-12:50		Wednesday
+English Comp Lab 		BSE-1A2		English Lab-2		08:30-09:50		Wednesday
+English Comp Lab 		BCS-1C2		English Lab-2		10:00-11:20		Wednesday
+English Comp Lab 		BCS-1H2		English Lab-2		11:30-12:50		Wednesday
+English Comp Lab 		BDS-1B1		English Lab-3		08:30-09:50		Wednesday
+English Comp Lab 		BCS-1D1		English Lab-3		10:00-11:20		Wednesday
+English Comp Lab 		BSE-1B1		English Lab-3		11:30-12:50		Wednesday
+English Comp Lab 		BDS-1B2		English Lab-4		08:30-09:50		Wednesday
+English Comp Lab 		BCS-1D2		English Lab-4		10:00-11:20		Wednesday
+English Comp Lab 		BSE-1B2		English Lab-4		11:30-12:50		Wednesday
+Programming Fundamentals Lab 		BSE-1B1,BSE-1B2		Lab(CS-1)		08:30-11:20		Wednesday
+Programming Fundamentals Lab 		BSE-1C1,BSE-1C2		Lab(CS-1)		14:30-17:20		Wednesday
+Com. Org. & Assembly Lang. Lab 		BCS-3C1, BCS3C2		Lab(CS-2A)		08:30-11:20		Wednesday
+Programming Fundamentals Lab 		BCS-1B1, BCS-1B2		Lab(CS-2A)		11:30-14:20		Wednesday
+Com. Org. & Assembly Lang. Lab 		BCS-3A1, BCS-3A2		Lab(CS-2A)		14:30-17:20		Wednesday
+Intro. to Info & Comm. Technologies 		BDS-1B		Lab(CS-2B)		10:00-12:50		Wednesday
+Com. Org. & Assembly Lang. Lab 		BCS-3B1, BCS-3B2		Lab(CS-2B)		14:30-17:20		Wednesday
+Discrete Structures 		BCS-3A		Lab(CS-3)		10:00-11:20		Wednesday
+Intro. to Info & Comm. Technologies 		BDS-1A		Lab(CS-4)		08:30-11:20		Wednesday
+Com. Org. & Assembly Lang. Lab 		BDS-3A1, BDS-3A2		Lab(CS-4)		13:00-15:50		Wednesday
+Operating Systems Lab 		BSE-5B1,BSE-5B2		Lab(CS-6)		08:30-11:20		Wednesday
+Com. Org. & Assembly Lang. Lab 		BDS-3B1, BDS-3B2		Lab(CS-6)		13:00-15:50		Wednesday
+Com. Org. & Assembly Lang. Lab 		BCS-3D1,BCS-3D2		Lab(CS-8)		11:30-14:20		Wednesday
+Data Structures Lab 		BCS-3H1,BCS-3H2		Lab(CS-8)		14:30-17:20		Wednesday
+Data Structures Lab 		BCS-3K1,BCS-3K2		Lab(CS-9)		11:30-14:20		Wednesday
+Calculus and Ana. Geometry 		BCS-1A		Seminar Hall		08:30-09:50		Thursday
+Parallel and Dist. Computing 		BCS-7A		Seminar Hall		10:00-11:20		Thursday
+Advanced Computer Networks 		MCS-1A		Seminar Hall		11:30-14:20		Thursday
+Obj. Oriented Programming 		BSE-3D		CS-2		08:30-09:50		Thursday
+Database Systems 		BCS-5A		CS-2		10:00-11:20		Thursday
+Database Systems 		BCS-5C		CS-2		11:30-12:50		Thursday
+Professional Practices 		BCS-7D		CS-2		13:00-14:20		Thursday
+Database Systems 		BCS-5B		CS-2		14:30-15:50		Thursday
+Applied Physics 		BCS-1B		CS-2		16:00-17:20		Thursday
+Fund. of Computer Vision 		BCS-7A		CS-3		08:30-09:50		Thursday
+Operating Systems 		BSE-5B		CS-3		10:00-11:20		Thursday
+Operating Systems 		BSE-5A		CS-3		11:30-12:50		Thursday
+Human Computer Interaction 		BSE-3B		CS-3		13:00-14:20		Thursday
+English Composition and Comprehension 		BDS-1B		CS-3		14:30-16:20		Thursday
+Advanced Software Engineering 		MSP-1A		CS-3		17:30-20:20		Thursday
+Information Security 		BCS-7J		CS-4		08:30-09:50		Thursday
+Com. Org. & Assembly Lang. 		BCS-3L		CS-4		10:00-11:20		Thursday
+Natural Language Processing 		MDS-3A		CS-4		11:30-12:50		Thursday
+Tech. & Business Writing 		BDS-5A		CS-4		13:00-14:20		Thursday
+Information Security 		BCS-7E		CS-4		14:30-15:50		Thursday
+Programming Fundamentals 		BCS-1H		CS-4		16:00-17:20		Thursday
+Data Structures 		BCS-3A		CS-5		08:30-09:50		Thursday
+Data Structures 		BCS-3B		CS-5		10:00-11:20		Thursday
+Obj. Oriented Programming 		BCS-3M		CS-5		11:30-12:50		Thursday
+Computer Networks 		BCS-5E		CS-5		13:00-14:20		Thursday
+Tech. & Business Writing 		BCS-5D		CS-5		14:30-15:50		Thursday
+Data Mining 		MCS-1A		CS-6		08:30-11:20		Thursday
+Calculus and Ana. Geometry 		BCS-1B		CS-6		11:30-12:50		Thursday
+Probability and Statistics 		BDS-3B		CS-6		13:00-14:20		Thursday
+Tech. & Business Writing 		BCS-5F		CS-6		14:30-15:50		Thursday
+Operations Research 		BSE-5B		CS-6		16:00-17:20		Thursday
+Intro to Data Science 		BDS-3A		CS-7		08:30-09:50		Thursday
+Intro to Data Science 		BDS-3B		CS-7		10:00-11:20		Thursday
+Professional Practices 		BCS-7E		CS-7		11:30-12:50		Thursday
+Natural Language Processing 		BCS-7A		CS-7		13:00-14:20		Thursday
+Professional Practices 		BCS-7C		CS-7		14:30-15:50		Thursday
+Information Security 		BCS-7F		CS-7		16:00-17:20		Thursday
+Pakistan Studies 		BCS-1G		CS-9		08:30-09:50		Thursday
+Com. Org. & Assembly Lang. 		BDS-3C		CS-9		10:00-11:20		Thursday
+Fund. of Computer Vision 		BCS-7B		CS-9		11:30-12:50		Thursday
+Theory of Automata 		BCS-5B		CS-9		13:00-14:20		Thursday
+Theory of Automata 		BCS-5A		CS-9		14:30-15:50		Thursday
+Artificial Intelligence 		BCS-7A		CS-9		16:00-17:20		Thursday
+Theory of Automata 		BCS-5D		CS-10		08:30-09:50		Thursday
+Theory of Automata 		BCS-5C		CS-10		10:00-11:20		Thursday
+Data Structures 		BCS-3E		CS-10		11:30-12:50		Thursday
+Data Structures 		BCS-3D		CS-10		13:00-14:20		Thursday
+Operating Systems 		BDS-5A		CS-10		14:30-15:50		Thursday
+Numerical Computing 		BCS-5B		CS-11		08:30-09:50		Thursday
+Data Structures 		BDS-3A		CS-11		10:00-11:20		Thursday
+Data Structures 		BDS-3B		CS-11		11:30-12:50		Thursday
+Compiler Construction 		BCS-7A		CS-11		13:00-14:20		Thursday
+Obj. Oriented Programming 		BCS-3L		CS-11		14:30-15:50		Thursday
+Calculus and Ana. Geometry 		BDS-1A		CS-15		08:30-09:50		Thursday
+Calculus and Ana. Geometry 		BDS-1B		CS-15		10:00-11:20		Thursday
+Pakistan Studies 		BDS-1A		CS-15		11:30-12:50		Thursday
+Digital Logic Design 		BCS-3N		CS-15		13:00-14:20		Thursday
+Information Security 		BCS-7G		CS-15		14:30-15:50		Thursday
+Psychology 		BCS-3A		CS-16		10:00-11:20		Thursday
+Linear Algebra 		BDS-1B		CS-16		11:30-12:50		Thursday
+Professional Practices 		BCS-7F		CS-16		13:00-14:20		Thursday
+Applied Physics 		BSE-1C		CS-16		14:30-15:50		Thursday
+Applied Physics 		BSE-1B		CS-16		16:00-17:20		Thursday
+Discrete Structures 		BCS-3L		Lib		08:30-09:50		Thursday
+Com. Org. & Assembly Lang. 		BCS-3F		Lib		10:00-11:20		Thursday
+Linear Algebra 		BCS-3C		Lib		11:30-12:50		Thursday
+Entrepreneurship 		BSE-3A		Lib		13:00-14:20		Thursday
+Linear Algebra 		BCS-3B		Lib		14:30-15:50		Thursday
+Principles of Leadership 		BCS-3H		Lib		16:00-17:20		Thursday
+Marketing Management 		BCS-3F		E&M-1		08:30-09:50		Thursday
+Com. Org. & Assembly Lang. 		BCS-3G		E&M-1		11:30-12:50		Thursday
+Programming Fundamentals 		BCS-1F		E&M-2		08:30-09:50		Thursday
+Soft Quality Eng 		5A		E&M-2		10:00-11:20		Thursday
+Human Computer Interaction 		BSE-3A		E&M-2		11:30-12:50		Thursday
+Linear Algebra 		BCS-3D		E&M-2		14:30-15:50		Thursday
+Entrepreneurship 		BCS-3P		E&M-2		16:00-17:20		Thursday
+Entrepreneurship 		BCS-3N		E&M-3		08:30-09:50		Thursday
+Linear Algebra 		BSE-3A		E&M-3		14:30-15:50		Thursday
+Linear Algebra 		BSE-3B		E&M-3		16:00-17:20		Thursday
+Entrepreneurship 		BSE-3B		E&M-4		14:30-15:50		Thursday
+Discrete Structures 		BDS-3C		E&M-5		08:30-09:50		Thursday
+Calculus and Ana. Geometry 		BCS-1J		E&M-5		10:00-11:20		Thursday
+Calculus and Ana. Geometry 		BSE-1C		E&M-5		11:30-12:50		Thursday
+Linear Algebra 		BDS-1A		E&M-5		13:00-14:20		Thursday
+Calculus and Ana. Geometry 		BSE-1B		E&M-5		14:30-15:50		Thursday
+Calculus and Ana. Geometry 		BSE-1A		E&M-5		16:00-17:20		Thursday
+Discrete Structures 		BCS-3M		E&M-11		08:30-09:50		Thursday
+Programming Fundamentals 		BCS-1E		E&M-11		10:00-11:20		Thursday
+Computer Networks 		BCS-9A		E&M-11		11:30-12:50		Thursday
+Psychology 		BCS-3B		E&M-11		13:00-14:20		Thursday
+Digital Logic Design 		BCS-3M		E&M-11		14:30-15:50		Thursday
+Calculus and Ana. Geometry 		BCS-1D		CE-1		08:30-09:50		Thursday
+Com. Org. & Assembly Lang. 		BCS-3D		CE-1		10:00-11:20		Thursday
+Data Structures 		BCS-3K		CE-1		11:30-12:50		Thursday
+Com. Org. & Assembly Lang. 		BCS-3E		CE-1		13:00-14:20		Thursday
+Applied Physics 		BCS-1H		CE-1		14:30-15:50		Thursday
+Pakistan Studies 		BSE-1C		CE-2		08:30-09:50		Thursday
+International Relations 		BCS-3J		CE-2		10:00-11:20		Thursday
+Information Retrieval 		BCS-7A		CE-2		11:30-12:50		Thursday
+Software Requirement Eng. 		BSE-3C		CE-2		13:00-14:20		Thursday
+Applied Physics 		BCS-1D		CE-2		14:30-15:50		Thursday
+Applied Physics 		BCS-1G		CE-2		16:00-17:20		Thursday
+Linear Algebra 		BCS-3G		CE-3		08:30-09:50		Thursday
+Linear Algebra 		BCS-3H		CE-3		10:00-11:20		Thursday
+Software for Mobile Devices 		BCS-7A		CE-3		11:30-12:50		Thursday
+Software for Mobile Devices 		BCS-7B		CE-3		13:00-14:20		Thursday
+Tech. & Business Writing 		BSE-5B		CE-3		14:30-15:50		Thursday
+Professional Practices 		BCS-7J		CS-1		08:30-09:50		Thursday
+Modern Politics and Gov. 		BSE-3A		CS-1		10:00-11:20		Thursday
+Computer Networks 		BCS-5B		CS-1		11:30-12:50		Thursday
+Computer Networks 		BCS-5A		CS-1		13:00-14:20		Thursday
+Discrete Structures 		BCS-3C		CS-1		14:30-15:50		Thursday
+Probability and Statistics 		BCS-5A		CS-1		16:00-17:20		Thursday
+Information Retrieval 		BCS-7B		CS-8		10:00-11:20		Thursday
+English Composition and Comprehension 		BCS-1H		CS-8		11:30-13:20		Thursday
+Numerical Computing 		BCS-5E		CS-8		14:30-15:50		Thursday
+Numerical Computing 		BCS-5F		CS-8		16:00-17:20		Thursday
+Numerical Computing 		BCS-5C		E&M-16		08:30-09:50		Thursday
+Numerical Computing 		BCS-5D		E&M-16		10:00-11:20		Thursday
+Soft Const & Development 		BSE-5B		E&M-16		13:00-14:20		Thursday
+Soft Const & Development 		BSE-5A		E&M-16		16:00-17:20		Thursday
+English Comp Lab 		BCS-1E1		English Lab-1		08:30-09:50		Thursday
+English Comp Lab 		BCS-1A1		English Lab-1		10:00-11:20		Thursday
+English Comp Lab 		BCS-1F1		English Lab-1		11:30-12:50		Thursday
+English Comp Lab 		BSE-1C1		English Lab-1		13:00-14:20		Thursday
+English Comp Lab 		BDS-1A1		English Lab-1		14:30-15:50		Thursday
+English Comp Lab 		BCS-1E2		English Lab-2		08:30-09:50		Thursday
+English Comp Lab 		BCS-1A2		English Lab-2		10:00-11:20		Thursday
+English Comp Lab 		BCS-1F2		English Lab-2		11:30-12:50		Thursday
+English Comp Lab 		BSE-1C2		English Lab-2		13:00-14:20		Thursday
+English Comp Lab 		BDS-1A2		English Lab-2		14:30-15:50		Thursday
+English Comp Lab 		BCS-1J1		English Lab-3		08:30-09:50		Thursday
+English Comp Lab 		BCS-1B1		English Lab-3		10:00-11:20		Thursday
+English Comp Lab 		BCS-1G1		English Lab-3		11:30-12:50		Thursday
+English Comp Lab 		BCS-1J2		English Lab-4		08:30-09:50		Thursday
+English Comp Lab 		BCS-1B2		English Lab-4		10:00-11:20		Thursday
+English Comp Lab 		BCS-1G2		English Lab-4		11:30-12:50		Thursday
+Data Structures Lab 		BCS-3E1,BCS-3E2		Lab(CS-1)		08:30-11:20		Thursday
+Intro. to Info & Comm. Technologies 		BCS-1A		Lab(CS-1)		11:30-14:20		Thursday
+Data Structures Lab 		BCS-3F1,BCS-3F2		Lab(CS-1)		14:30-17:20		Thursday
+Intro. to Info & Comm. Technologies 		BCS-1D		Lab(CS-2A)		10:00-12:50		Thursday
+Intro. to Info & Comm. Technologies 		BCS-1B		Lab(CS-2A)		13:00-15:50		Thursday
+Intro. to Info & Comm. Technologies 		BCS-1H		Lab(CS-2B)		08:30-11:20		Thursday
+Intro. to Info & Comm. Technologies 		BCS-1E		Lab(CS-2B)		11:30-14:20		Thursday
+Data Structures Lab 		BCS-3G1,BCS-3G2		Lab(CS-2B)		14:30-17:20		Thursday
+Discrete Structures 		BCS-3K		Lab(CS-3)		10:00-11:20		Thursday
+Com. Org. & Assembly Lang. Lab 		BCS-3L1, BCS-3L2		Lab(CS-4)		11:30-14:20		Thursday
+Data Structures Lab 		BCS-3J1,BCS-3J2		Lab(CS-4)		14:30-17:20		Thursday
+Intro. to Info & Comm. Technologies 		BSE-1A		Lab(CS-6)		11:30-14:20		Thursday
+Intro. to Info & Comm. Technologies 		BCS-1J		Lab(CS-8)		11:30-14:20		Thursday
+Database Systems Lab 		BSE-5C1,BSE-5C2		Lab(CS-8)		14:30-17:20		Thursday
+Data Structures Lab 		BDS-3C1, BDS-3C2		Lab(CS-9)		11:30-14:20		Thursday
+Deep Learning 		MCS-1A		Seminar Hall		10:00-12:50		Friday
+Advanced Machine Learning 		MCS-1A		Seminar Hall		14:30-17:20		Friday
+Applied Image Processing 		MDS-1A		CS-2		08:30-11:20		Friday
+Applied Programming 		MDS-1A		CS-2		14:30-17:20		Friday
+Practicum - I/II 		MSP-3A		CS-3		08:30-11:20		Friday
+Linear Algebra 		BCS-3K		CS-3		14:30-15:50		Friday
+Linear Algebra 		BCS-3J		CS-3		16:00-17:20		Friday
+Marketing Management 		MSP-1A		CS-3		17:30-20:20		Friday
+Software Engineering 		BCS-7B		CS-4		10:00-11:20		Friday
+Software Engineering 		BCS-7A		CS-4		11:30-12:50		Friday
+Advanced Programming 		BCS-7A		CS-4		16:00-17:20		Friday
+Software Design & Analysis 		BCS-5D		CS-5		08:30-09:50		Friday
+Software Design & Analysis 		BCS-5C		CS-5		10:00-11:20		Friday
+Tech. & Business Writing 		BSE-5A		CS-5		14:30-15:50		Friday
+Professional Practices 		BCS-7G		CS-6		08:30-09:50		Friday
+Professional Practices 		BCS-7H		CS-6		10:00-11:20		Friday
+Professional Practices 		BCS-9A		CS-6		11:30-12:50		Friday
+Professional Practices 		BCS-7C		CS-7		14:30-15:50		Friday
+Web Programming 		BCS-7B		CS-9		08:30-09:50		Friday
+Discrete Structures 		BDS-3D		CS-10		08:30-09:50		Friday
+English Composition and Comprehension 		BSE-1B		CS-15		10:00-11:50		Friday
+Tech. & Business Writing 		BDS-5B		CS-15		16:00-17:20		Friday
+Programming Fundamentals 		BCS-1C		CS-16		08:30-09:50		Friday
+Applied Physics 		BSE-1B		CS-16		16:00-17:20		Friday
+Calculus and Ana. Geometry 		BSE-1B		E&M-5		14:30-15:50		Friday
+Calculus and Ana. Geometry 		BSE-1A		E&M-5		16:00-17:20		Friday
+Professional Practices 		BCS-7J		CS-1		08:30-09:50		Friday
+Cloud Computing 		MDS-3A		CS-1		10:00-12:50		Friday
+Research Methodology 		MDS-3A		CS-1		14:30-17:20		Friday
+English Composition and Comprehension 		BCS-1C		CS-8		11:00-12:50		Friday
+English Composition and Comprehension 		BCS-1G		CS-8		14:30-16:20		Friday
+Operating Systems 		BCS-5B		E&M-16		11:30-12:50		Friday
+Operating Systems 		BCS-5A		E&M-16		14:30-15:50		Friday
+Com. Org. & Assembly Lang. Lab 		BCS-3J1, BCS3J2		Lab(CS-1)		10:00-12:50		Friday
+Object Oriented Programming Lab 		BCS-3M1,BCS-3M2		Lab(CS-1)		14:30-17:20		Friday
+Operating Systems Lab 		BCS-5A1,BCS-5A2		Lab(CS-2A)		08:30-11:20		Friday
+Database Systems Lab 		BCS-5C1,BCS-5C2		Lab(CS-2A)		14:30-17:20		Friday
+Object Oriented Programming Lab 		BCS-3N1,BCS-3N2		Lab(CS-2B)		08:30-11:20		Friday
+Data Structures Lab 		BSE-3A1,BSE-3A2		Lab(CS-2B)		14:30-17:20		Friday
+Object Oriented Programming Lab 		BSE-3D1, BSE-3D2		Lab(CS-4)		08:30-11:20		Friday
+Data Structures Lab 		BSE-3B1, BSE-3B2		Lab(CS-6)		08:30-11:20		Friday
+Computer Networks Lab  		BCS-5D1, BCS-5D2		Lab(CS-6)		14:30-17:20		Friday
+Operating Systems Lab 		BDS-5A1, BDS-5A2		Lab(CS-8)		08:30-11:20		Friday
+Programming Fundamentals Lab 		BCS-1G1,BCS-1G2		Lab(CS-9)		10:00-12:50		Friday
+Digital Logic Design Lab 		BCS-3M1		Physics Lab		08:30-11:20		Friday
+Digital Logic Design Lab 		BCS-3M2		Micro Lab		08:30-11:20		Friday
+Information Security 		BCS-7C		CS-2		10:00-12:50		Saturday
+Information Security 		BCS-7D		CS-2		14:30-17:20		Saturday
+Research Methodology 		MSP-1A		CS-3		17:30-20:20		Saturday
+Advanced Programming 		BCS-7A		CS-4		16:00-17:20		Saturday
+Professional Practices 		BCS-7G		CS-6		08:30-09:50		Saturday
+Professional Practices 		BCS-7H		CS-6		10:00-11:20		Saturday
+Professional Practices 		BCS-9A		CS-6		11:30-12:50		Saturday
+Discrete Structures 		BDS-3D		CS-10		08:30-09:50		Saturday
+Object Oriented Programming Lab 		BCS-3P1,BCS-3P2		Lab(CS-1)		08:30-11:20		Saturday
+Computer Networks Lab 		BCS-9A1, BCS-9A2		Lab(CS-1)		14:30-17:20		Saturday
+Database Systems Lab 		BCS-5A1,BCS-5A2		Lab(CS-2A)		08:30-11:20		Saturday
+Database Systems Lab 		BCS-5B1,BCS-5B2		Lab(CS-2A)		11:30-14:20		Saturday
+Computer Networks Lab  		BCS-5B1, BCS-5B2		Lab(CS-2A)		14:30-17:20		Saturday
+Computer Networks Lab  		BCS-5E1, BCS-5E2		Lab(CS-2B)		08:30-11:20		Saturday
+Computer Networks Lab  		BCS-5A1, BCS-5A2		Lab(CS-2B)		11:30-14:20		Saturday
+Soft Const & Development Lab 		BSE-5A1,BSE-5A2		Lab(CS-3)		08:30-11:20		Saturday
+Object Oriented Programming Lab 		BDS-3E1,BDS-3E2		Lab(CS-3)		11:30-14:20		Saturday
+Operating Systems Lab 		BCS-5B1,BCS-5B2		Lab(CS-4)		08:30-11:20		Saturday
+Artificial Intelligence Lab 		BCS-7A1,BCS-7A2		Lab(CS-6)		08:30-11:20		Saturday
+Artificial Intelligence Lab 		BCS-7B1, BCS-7B2		Lab(CS-6)		11:30-14:20		Saturday
+Digital Logic Design Lab 		BCS-3N1		Physics Lab		08:30-11:20		Saturday
+Digital Logic Design Lab 		BCS-3N2		Micro Lab		08:30-11:20		Saturday

@@ -8,7 +8,7 @@ class MyClient(discord.Client):
     async def on_ready(self):
         print('Logged on as {0}!'.format(self.user))
         channel = self.get_channel(940195025051090995)
-        await channel.purge(limit = 1)
+        # await channel.purge(limit = 2)
         await self.send_tt()
         await self.close()
 
